@@ -470,13 +470,13 @@
     <!-- TODO: use navigation.xml to generate this AND use correct language! -->
     <div class="imprintlinewrapper">
       <span>
-        <a href="/contact.xml">Kontakt</a>
+        <a href="{$WebApplicationBaseURL}contact.xml">Kontakt</a>
       </span>
       <span>
-        <a href="/datenschutz/">Datenschutz</a>
+        <a href="{$WebApplicationBaseURL}privacy.xml">Datenschutz</a>
       </span>
       <span>
-        <a href="/impressum/">Impressum</a>
+        <a href="{$WebApplicationBaseURL}imprint.xml">Impressum</a>
       </span>
     </div>
   </xsl:template>
