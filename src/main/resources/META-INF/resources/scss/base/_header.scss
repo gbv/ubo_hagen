@@ -1,0 +1,92 @@
+
+$top-bg-color: #002350;
+$bg-color-two: blue;
+
+header {
+  background-color: $top-bg-color;
+  padding-top: 0.5rem;
+}
+
+.header-brand {
+  padding-top: 0.5rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.btn-link > i {
+  color: white;
+}
+
+.btn-link > i:hover {
+  color: $bg-color-two;
+}
+
+.nav-pills > .nav-item {
+  color: white;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 .5rem;
+}
+
+a.nav-link:hover {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+li.nav-item.active {
+  background-color: $bg-color-breadcrumb;
+}
+
+.nav-login:hover {
+  color: #2285ff !important;
+}
+
+.nav-item .btn a {
+  color: white;
+}
+
+.nav-item .btn a:hover {
+  color: #2285ff;
+}
+
+
+#wordmark {
+  background: url('/images/fsu_word_mark.svg');
+  height: 50px;
+  width: 145px;
+}
+
+#wordmark:hover {
+  background: url('/images/fsu_word_mark_hover.svg');
+  height: 50px;
+  width: 145px;
+}
+
+i.fas.fa-lg.fa-bars {
+    color: white;
+}
+
+.navbar-toggler {
+    padding: 0;
+    font-size: 25px;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
+}
+
+.dropdown-menu a {
+    color: #212529;
+    font-size: 16px;
+}
+
+a#mcrFunctionsDropdown {
+    color: white;
+}
