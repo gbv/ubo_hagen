@@ -32,7 +32,6 @@
               <MCR-Auto-Deploy>true</MCR-Auto-Deploy>
             </manifestEntries>
           </archive>
-          <outputDirectory>${dir}</outputDirectory>
         </configuration>
       </plugin>
     </plugins>

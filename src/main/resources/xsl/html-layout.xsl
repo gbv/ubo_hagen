@@ -5,7 +5,8 @@
   xmlns:xalan="http://xml.apache.org/xalan"
   xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
   xmlns:encoder="xalan://java.net.URLEncoder" 
-  exclude-result-prefixes="xsl xalan i18n encoder">
+  xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
+  exclude-result-prefixes="xsl xalan i18n encoder mcrver">
 
   <xsl:output method="html" encoding="UTF-8" media-type="text/html" indent="yes" xalan:indent-amount="2" />
 
@@ -15,7 +16,7 @@
   <xsl:variable name="jquery-ui.version" select="'1.12.1'" />
   <xsl:variable name="chosen.version" select="'1.8.7'" />
   <xsl:variable name="bootstrap.version" select="'4.4.1'" />
-  <xsl:variable name="font-awesome.version" select="'5.5.0'" />
+  <xsl:variable name="font-awesome.version" select="'5.13.0'" />
 
   <!-- ==================== IMPORTS ==================== -->
   <!-- additional stylesheets -->
@@ -52,6 +53,7 @@
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Droid+Sans|Droid+Sans+Mono:300,400" type="text/css" />
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto:300,400" type="text/css" />
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto+Condensed:300,400" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Amiri:300,400" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
@@ -311,12 +313,12 @@
                 <li class="breadcrumb-item">
                   <i class="fas fa-home pr-1"></i>
                   <a href="http://www.ub.fernuni-hagen.de/">
-                    <xsl:value-of select="i18n:translate('navigation.UB')" />
+                    <xsl:value-of select="i18n:translate('navigation.UBHagen')" />
                   </a>
                 </li>
                 <li class="breadcrumb-item">
                   <a href="{$WebApplicationBaseURL}">
-                    <xsl:value-of select="i18n:translate('navigation.Home')" />
+                    <xsl:value-of select="i18n:translate('navigation.HomeHagen')" />
                   </a>
                 </li>
                 <xsl:apply-templates mode="breadcrumb"
@@ -457,9 +459,15 @@
 
   <xsl:template name="layout.footer">
     <footer>
+      <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
-        <div class="mt-auto">
-          <xsl:call-template name="layout.imprintline" />
+        <div class="row mt-auto">
+          <div class="col">
+            <xsl:call-template name="layout.imprintline" />
+          </div>
+          <div class="col text-right">
+            <xsl:call-template name="powered_by"/>
+          </div>
         </div>
       </div>
     </footer>
@@ -478,6 +486,15 @@
       <span>
         <a href="{$WebApplicationBaseURL}imprint.xml">Impressum</a>
       </span>
+    </div>
+  </xsl:template>
+
+  <xsl:template name="powered_by">
+    <xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" />
+    <div id="powered_by">
+      <a href="http://www.mycore.de">
+        <img src="{$WebApplicationBaseURL}images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+      </a>
     </div>
   </xsl:template>
 
