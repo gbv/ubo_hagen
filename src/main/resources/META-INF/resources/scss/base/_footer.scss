@@ -1,5 +1,5 @@
 footer {
-    background-color: #174488;
+    background-color: $color-dark-blue;
     color: #fff;
     width: 100%;
     height: 150px;
@@ -10,17 +10,6 @@ footer {
 
 footer .container {
     margin-top: auto;
-}
-
-footer .ribbon {
-  max-width: 1140px;
-  background-image: url(/images/footer_background_default.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% 100%;
-  height: 12px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 footer .info {
@@ -37,12 +26,6 @@ footer .info {
     letter-spacing: 0.02em;
     margin-right: 32px;
 }
-
-.imprintlinewrapper a:hover {
-    color: white;
-    text-decoration: underline !important;
-}
-
 
 @include media-breakpoint-up(sm) {
   footer .ribbon {

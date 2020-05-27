@@ -3,7 +3,6 @@ $top-bg-color: #002350;
 $bg-color-two: blue;
 
 header {
-  background-color: $top-bg-color;
   padding-top: 0.5rem;
 }
 
@@ -13,19 +12,19 @@ header {
 }
 
 .btn-link > i {
-  color: white;
+  color: $color-dark-blue;
 }
 
 .btn-link > i:hover {
-  color: $bg-color-two;
+  color: $color-light-blue;
 }
 
 .nav-pills > .nav-item {
-  color: white;
+  //color: white;
 }
 
 .navbar-nav a {
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
@@ -34,12 +33,12 @@ header {
 }
 
 a.nav-link:hover {
-  color: white !important;
-  text-decoration: underline !important;
+    color: $color-dark-blue;
+    text-decoration: underline;
 }
 
 li.nav-item.active {
-  background-color: $bg-color-breadcrumb;
+    background-color: $color-light-blue;
 }
 
 .nav-login:hover {
@@ -47,28 +46,17 @@ li.nav-item.active {
 }
 
 .nav-item .btn a {
-  color: white;
+  color: $color-dark-blue;
 }
-
-.nav-item .btn a:hover {
-  color: #2285ff;
-}
-
 
 #wordmark {
-  background: url('/images/fsu_word_mark.svg');
-  height: 50px;
-  width: 145px;
-}
-
-#wordmark:hover {
-  background: url('/images/fsu_word_mark_hover.svg');
-  height: 50px;
-  width: 145px;
+  background: url('../../../ubo_hagen_logo.png');
+  height: 60px;
+  width: 283px;
 }
 
 i.fas.fa-lg.fa-bars {
-    color: white;
+    color: $color-dark-blue;
 }
 
 .navbar-toggler {
@@ -85,8 +73,4 @@ i.fas.fa-lg.fa-bars {
 .dropdown-menu a {
     color: #212529;
     font-size: 16px;
-}
-
-a#mcrFunctionsDropdown {
-    color: white;
 }

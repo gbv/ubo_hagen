@@ -4,10 +4,8 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xalan="http://xml.apache.org/xalan"
   xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-  xmlns:encoder="xalan://java.net.URLEncoder"
-  xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
-
-                exclude-result-prefixes="xsl xalan i18n encoder mcrver">
+  xmlns:encoder="xalan://java.net.URLEncoder" 
+  exclude-result-prefixes="xsl xalan i18n encoder">
 
   <xsl:output method="html" encoding="UTF-8" media-type="text/html" indent="yes" xalan:indent-amount="2" />
 
@@ -54,7 +52,6 @@
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Droid+Sans|Droid+Sans+Mono:300,400" type="text/css" />
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto:300,400" type="text/css" />
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto+Condensed:300,400" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Amiri:300,400" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
@@ -257,7 +254,7 @@
       <div class="container" id="">
         <div class="row">
           <div class="col header-brand">
-            <a title="Zur Startseite" class="imageLink" href="http://www.uni-jena.de/">
+            <a title="Zur Startseite" class="imageLink" href="http://www.ub.fernuni-hagen.de/">
               <div id="wordmark" />
             </a>
           </div>
@@ -313,7 +310,7 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                   <i class="fas fa-home pr-1"></i>
-                  <a href="https://www.uni-due.de/ub/">
+                  <a href="http://www.ub.fernuni-hagen.de/">
                     <xsl:value-of select="i18n:translate('navigation.UB')" />
                   </a>
                 </li>
@@ -460,15 +457,9 @@
 
   <xsl:template name="layout.footer">
     <footer>
-      <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
-        <div class="row mt-auto">
-          <div class="col">
-            <xsl:call-template name="layout.imprintline" />
-          </div>
-          <div class="col text-right">
-            <xsl:call-template name="powered_by"/>
-          </div>
+        <div class="mt-auto">
+          <xsl:call-template name="layout.imprintline" />
         </div>
       </div>
     </footer>
@@ -487,15 +478,6 @@
       <span>
         <a href="/impressum/">Impressum</a>
       </span>
-    </div>
-  </xsl:template>
-
-  <xsl:template name="powered_by">
-    <xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" />
-    <div id="powered_by">
-      <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-      </a>
     </div>
   </xsl:template>
 

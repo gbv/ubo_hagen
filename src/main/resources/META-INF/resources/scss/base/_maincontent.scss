@@ -5,7 +5,7 @@ $form-color: #251e52;
 .mycore-form-input, .form-control {
   border-color: $form-color;
   border: 1px solid #ced4da;
-  border-radius: $border-radius;
+  border-radius: .1rem;
 }
 
 .form-control:focus, .mycore-form-input:focus {
@@ -36,7 +36,7 @@ $form-color: #251e52;
 }
 
 .mycore-form-input + button:not(:last-child) {
-    border-radius: $border-radius;
+    border-radius: 0px;
 }
 
 .minus, .up, .down {
@@ -64,18 +64,41 @@ $form-color: #251e52;
     border-color: #bd2130 !important;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: $color-dark-blue;
+    border-color: $color-dark-blue;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    border-radius: .1rem;
+}
+
+.btn-primary:hover {
+    background-color: $color-light-blue;
+    border-color: #102e5c;
+    color: black;
+}
+
 .row .col hr {
     border-top: 0;
 }
 
-p {
-  color: rgb(51, 57, 57);
+.bg-card-body1 {
+  background-color: $color-light-blue !important;
 }
 
-a {
-  font-family: 'Roboto Condensed',Arial,sans-serif;
-  letter-spacing: 0.02em;
+.btn-outline-primary {
+    color: $color-dark-blue;
+    background-color: transparent;
+    background-image: none;
+    border-color: $color-dark-blue;
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: $color-dark-blue;
+    border-color: $color-dark-blue;
+}
+
 
 .nameIdentifier {
   @extend .badge, .badge-primary;
@@ -85,8 +108,7 @@ a {
   }
   vertical-align: top;
   margin-right: 0.25rem;
-  background-color: #1d60bd;
-  border-radius: 0.2rem;
+  background-color: #ddd;
 }
 
 .nameIdentifier:first-child {
@@ -100,5 +122,4 @@ a {
 .badge-secondary {
   color: #333939;
   background-color: #e7e4db;
-  border-radius: 0.2rem;
 }
