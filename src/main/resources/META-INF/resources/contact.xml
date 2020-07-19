@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <webpage lastModified="$Date$" id="contact">
-  <title xml:lang="de">Kontakt - Hochschulbibliografie</title>
+  <title xml:lang="de">Kontakt - Hochschulbibliographie</title>
   <title xml:lang="en">Contact - University Bibliography</title>
 
   <article class="card" xml:lang="de">
     <div class="card-body">
       <h3>Kontakt</h3>
       <p>
-        Haben Sie Fragen zur Hochschulbibliografie oder benötigen Hilfe oder Beratung, melden Sie sich bei uns:
+        Haben Sie Fragen zur Hochschulbibliographie oder benötigen Hilfe oder Beratung, melden Sie sich bei uns:
       </p>
       <p>
         Andreas Lorenz<br/>
-        <a href="mailto:bibliografie@fernuni-hagen.de">bibliografie@fernuni-hagen.de</a><br/>
+        <a href="mailto:bibliographie@fernuni-hagen.de">bibliographie@fernuni-hagen.de</a><br/>
         Tel.: +49 2331 987-2909 <br/>
       </p>
     </div>
@@ -26,7 +26,7 @@
         </p>
         <p>
           Andreas Lorenz<br/>
-          <a href="mailto:bibliografie@fernuni-hagen.de">bibliografie@fernuni-hagen.de</a><br/>
+          <a href="mailto:bibliographie@fernuni-hagen.de">bibliographie@fernuni-hagen.de</a><br/>
           Phone: +49 2331 987-2909 <br/>
         </p>
       </div>

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <webpage lastModified="$Date$" id="dozbib">
- <title xml:lang="de">Willkommen bei der Hochschulbibliografie der FernUniversität Hagen</title>
+ <title xml:lang="de">Willkommen bei der Hochschulbibliographie der FernUniversität Hagen</title>
  <title xml:lang="en">Welcome to Bibliography of FU Hagen</title>
  
  <article class="card mb-3" xml:lang="de">
    <div class="card-body">
-     <h3>Die Hochschulbibliografie</h3>
+     <h3>Die Hochschulbibliographie</h3>
       <p>
-        befindet sich derzeit im Aufbau.
+        Die Hochschulbibliographie ist der zentrale Publikationsnachweis der FernUniversität in Hagen. Sie ist eine Dienstleistung der Universitätsbibliothek
+        und wird durch diese redaktionell betreut.
+      </p>
+      <p>
+        Verzeichnet werden Veröffentlichungen der Hochschulangehörigen sowie an der FernUniversität entstandene Dissertationen und Habilitationen. Studentische
+        Prüfungsarbeiten werden nur verzeichnet, wenn sie publiziert worden sind. 
+      </p>
+      <p>
+        Mit der Hochschulbibliographie soll das wissenschaftliche Profil der FernUniversität sichtbar gemacht werden.
       </p>
       <h3>Sie sind Angehöriger der FernUniversität Hagen?</h3>
       <p>
         Helfen Sie uns bei der Vervollständigung!<br/>
-        <a href="../newPublication.xed">Hier können Sie Ihre Publikation an die Hochschulbibliografie melden</a>
+        <a href="newPublication.xed">Hier können Sie Ihre Publikation an die Hochschulbibliographie melden</a>
       </p>
    </div>
  </article>
@@ -27,7 +35,7 @@
         As a member of FU Hagen</h3>
       <p>
         Help us to complete the bibliography!<br/>
-        <a href="../newPublication.xed">Here you can register your own publication</a>
+        <a href="newPublication.xed">Here you can register your own publication</a>
       </p>
     </div>
   </article>
@@ -86,8 +94,8 @@
           <h3>Kontakt:</h3>
         </hgroup>
         <p>
-          <a href="mailto:bibliografie@fernuni-hagen.de">
-            <span>bibliografie<br/>@fernuni-hagen.de</span>
+          <a href="mailto:bibliographie@fernuni-hagen.de">
+            <span>bibliographie<br/>@fernuni-hagen.de</span>
           </a>
         </p>
         <p>
@@ -102,8 +110,8 @@
           <h3>Contact:</h3>
         </hgroup>
         <p>
-          <a href="mailto:bibliografie@fernuni-hagen.de">
-            <span>bibliografie<br/>@fernuni-hagen.de</span>
+          <a href="mailto:bibliographie@fernuni-hagen.de">
+            <span>bibliographie<br/>@fernuni-hagen.de</span>
           </a>
         </p>
         <p>
