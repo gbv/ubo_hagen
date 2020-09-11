@@ -24,21 +24,21 @@ header {
 }
 
 .navbar-nav a {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 
 .navbar-nav .nav-item {
-    padding: 0 .5rem;
+  padding: 0 .5rem;
 }
 
 a.nav-link:hover {
-    color: $color-dark-blue;
-    text-decoration: underline;
+  color: $color-dark-blue;
+  text-decoration: underline;
 }
 
 li.nav-item.active {
-    background-color: $color-light-blue;
+  background-color: $color-light-blue;
 }
 
 .nav-login:hover {
@@ -55,21 +55,21 @@ li.nav-item.active {
 }
 
 i.fas.fa-lg.fa-bars {
-    color: $color-dark-blue;
+  color: $color-dark-blue;
 }
 
 .navbar-toggler {
-    padding: 0;
-    font-size: 25px;
+  padding: 0;
+  font-size: 25px;
 }
 
 .dropdown-menu {
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .1rem;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
 }
 
 .dropdown-menu a {
-    color: #212529;
-    font-size: 16px;
+  color: #212529;
+  font-size: 16px;
 }
