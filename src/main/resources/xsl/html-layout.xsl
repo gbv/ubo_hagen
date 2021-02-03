@@ -11,6 +11,8 @@
   <xsl:output method="html" encoding="UTF-8" media-type="text/html" indent="yes" xalan:indent-amount="2" />
 
   <xsl:param name="CurrentLang" />
+  <xsl:param name="UBO.Login.Path" />
+  <xsl:param name="UBO.TestInstance" />
 
   <xsl:variable name="jquery.version" select="'3.3.1'" />
   <xsl:variable name="jquery-ui.version" select="'1.12.1'" />
@@ -63,7 +65,8 @@
     </head>
   </xsl:template>
 
-  <!-- all layout -->
+  <!-- html body -->
+
   <xsl:template name="layout">
     <body class="d-flex flex-column">
       <!-- <xsl:call-template name="layout.headerline" /> -->
@@ -74,6 +77,9 @@
       <!-- <xsl:call-template name="layout.topcontainer" /> -->
       <xsl:call-template name="layout.body" />
       <xsl:call-template name="layout.footer" />
+      <xsl:if test="contains($UBO.TestInstance, 'true')">
+        <div id="watermark_testenvironment">Testumgebung</div>
+      </xsl:if>
     </body>
   </xsl:template>
 
@@ -276,7 +282,7 @@
             <span class="fas fa-bookmark mr-1" aria-hidden="true" />
             <span class="mr-1"><xsl:value-of select="i18n:translate('basket')" />:</span>
             <span class="mr-1" id="basket-info-num">
-              <xsl:value-of xmlns:basket="xalan://unidue.ubo.basket.BasketUtils" select="basket:size()" />
+              <xsl:value-of xmlns:basket="xalan://org.mycore.ubo.basket.BasketUtils" select="basket:size()" />
             </span>
             <span><xsl:value-of select="i18n:translate('ubo.publications')" /></span>
       </a>
@@ -312,13 +318,13 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                   <i class="fas fa-home pr-1"></i>
-                  <a href="http://www.ub.fernuni-hagen.de/">
-                    <xsl:value-of select="i18n:translate('navigation.UBHagen')" />
+                  <a href="https://www.tu-ilmenau.de/ub/">
+                    <xsl:value-of select="i18n:translate('navigation.UB')" />
                   </a>
                 </li>
                 <li class="breadcrumb-item">
                   <a href="{$WebApplicationBaseURL}">
-                    <xsl:value-of select="i18n:translate('navigation.HomeHagen')" />
+                    <xsl:value-of select="i18n:translate('navigation.Home')" />
                   </a>
                 </li>
                 <xsl:apply-templates mode="breadcrumb"
@@ -353,7 +359,7 @@
     <div class="nav-item mr-2">
       <xsl:choose>
         <xsl:when test="$CurrentUser = $MCR.Users.Guestuser.UserName">
-          <span class="user p-0" style="cursor: default;">
+          <span class="user btn p-0" style="cursor: default;">
             [<xsl:value-of select="i18n:translate('component.user2.login.guest')" />]
           </span>
         </xsl:when>
@@ -382,7 +388,7 @@
       <xsl:choose>
         <xsl:when test="/webpage/@id='login'" />
         <xsl:when test="$CurrentUser = $MCR.Users.Guestuser.UserName">
-          <form action="{$WebApplicationBaseURL}login.xed" method="get">
+          <form action="{$WebApplicationBaseURL}{$UBO.Login.Path}" method="get">
             <input type="hidden" name="url" value="{$RequestURL}" />
             <button title="Anmelden" class="btn btn-link p-0" type="submit" name="{i18n:translate('component.user2.button.login')}" value="{i18n:translate('component.user2.button.login')}">
               <i class="nav-login fas fa-lg fa-sign-in-alt"></i>
@@ -475,17 +481,17 @@
 
   <!-- Imprintline (below footer) -->
   <xsl:template name="layout.imprintline">
+    <xsl:variable name="metanavigation" select="$navigation.tree/item[@role='meta']/item"/>
     <!-- TODO: use navigation.xml to generate this AND use correct language! -->
     <div class="imprintlinewrapper">
-      <span>
-        <a href="{$WebApplicationBaseURL}contact.xml">Kontakt</a>
-      </span>
-      <span>
-        <a href="{$WebApplicationBaseURL}privacy.xml">Datenschutz</a>
-      </span>
-      <span>
-        <a href="{$WebApplicationBaseURL}imprint.xml">Impressum</a>
-      </span>
+      <xsl:for-each select="$metanavigation" >
+        <span>
+          <a href="{$WebApplicationBaseURL}{@ref}">
+            <xsl:copy-of select="@target" />
+            <xsl:call-template name="output.label.for.lang" />
+          </a>
+        </span>
+      </xsl:for-each>
     </div>
   </xsl:template>
 
