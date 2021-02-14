@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <webpage lastModified="$Date$" id="contact">
-  <title xml:lang="de">Datenschutzerklärung - Hochschulbibliographie</title>
-  <title xml:lang="en">Privacy - University Bibliography</title>
+  <title xml:lang="de">Datenschutz</title>
+  <title xml:lang="en">Privacy</title>
 
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
-      <h3>Datenschutzerklärung</h3>
       <p>
-        ...
+        Der verantwortungsvolle Umgang mit Ihren persönlichen Daten hat bei uns höchste Priorität. Daher möchten wir Sie
+        an dieser Stelle über die wichtigsten datenschutzrechtlich relevanten Aspekte unserer Hochschulbibliograpie
+        informieren.
       </p>
     </div>
   </article>
 
-  <article class="card" xml:lang="en">
-      <div class="card-body">
-        <h3>Privacy</h3>
-        <p>
-          ...
-        </p>
-      </div>
+  <article class="card mb-3" xml:lang="de">
+    <div class="card-body">
+      <h3>Nutzungsanalyse / Nutzungsstatistik</h3>
+      <p>
+        Durch die Analyse der Nutzung der Hochschulbibliographie erhalten wir wertvolle Informationen, um unser Webangebot
+        zu verbessern. Dazu zählt zum Beispiel, wie oft bestimmte Inhalte aufgerufen wurden oder mit welchem Browser auf
+        welchen (mobilen) Geräten die Webseite betrachtet wurde. Die gespeicherten Daten verwendet die Universitätsbibliothek
+        Hagen ausschließlich zu statistischen Zwecken. Eine anderweitige Nutzung der Daten oder eine Weitergabe an Dritte
+        erfolgt nicht.
+      </p>
+    </div>
+  </article>
+
+  <article class="card mb-3" xml:lang="de">
+    <div class="card-body">
+      <h3>Cookies</h3>
+      <p>
+        Cookies sind kleine Textdateien, die beim Besuch einer Webseite auf Ihrem Computer gespeichert werden. Über Cookies
+        können Informationen zwischen Computerprogrammen ausgetauscht oder für einen beschränkten Zeitraum gespeichert werden.
+        Cookies können nur gespeichert werden, wenn Sie dies in den Einstellungen Ihres Browsers erlaubt haben. deposit_hagen
+        verwendet Cookies sehr sparsam. Das bedeutet, dass Sie diese Webseite grundsätzlich auch ohne Cookies betrachten können.
+        Die auf dieser Webseite eingesetzten Cookies haben zwei unterschiedliche Funktionen: Ein Teil der eingesetzten Cookies
+        gewährleistet, dass die Webseite einwandfrei funktioniert und angezeigt wird. Die Gültigkeit dieser Cookies ist auf den
+        Webseitenbesuch beschränkt. Sobald Sie Ihren Browser beenden, werden diese sogenannten „Session-Cookies“ gelöscht. Eine
+        Ausnahme bildet der Cookie, der die Anzeige des Datenschutzhinweises steuert. Damit Ihnen der Hinweis nicht bei jedem Besuch
+        erneut angezeigt wird, bleibt dieser drei Monate gültig.
+      </p>
+    </div>
   </article>
 
 </webpage>

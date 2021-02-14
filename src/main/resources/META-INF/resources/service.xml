@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage lastModified="$Date$" id="service">
+  <title xml:lang="de">Unser Service</title>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <p>
+        Der Hochschulbibliographie der FernUniversität in Hagen ist eine Dienstleistung der Universitätsbibliothek Hagen mit
+        dem Ziel, Mitgliedern und Angehörigen der FernUniversität die professionelle Verzeichnung ihrer wissenschaftlichen
+        Publikationen zu ermöglichen.
+      </p>
+      <p>
+        Die Universitätsbibliothek berät Sie zu allen Fragen der bibliographischen Verzeichnung Ihrer Publikationen und
+        stellt sicher, dass eine normgerechte und professionelle Eintragung erfolgt.
+      </p>
+      <p>
+        Unser Service erhöht damit direkt die Sichtbarkeit Ihres Publikationstätigkeit und bietet unter anderem die Möglichkeit
+        persönliche Literaturlisten in verschiedenen Formaten, wie BibTex, PDF, RIS (Citavi), Endnote, HTML zu exportieren und
+        weiter zu verwenden.
+      </p>
+    </div>
+  </article>
+
+</webpage>

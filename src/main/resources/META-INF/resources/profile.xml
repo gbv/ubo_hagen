@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage lastModified="$Date$" id="profile">
+  <title xml:lang="de">Profil</title>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <p>
+        Die Hochschulbibliographie verzeichnet Publikationen von Personen an der FernUniversität in Hagen und umfasst vor
+        allem Monographien, Beiträge in Fachzeitschriften, Konferenzbeiträge sowie Dissertationen und Habilitationen.
+      </p>
+      <p>
+        Maßgeblich für die Erfassung ist, dass die Publikation unter Beteiligung mindestens einer der FernUniversität
+        angehörigen Person verfasst wurde.
+      </p>
+    </div>
+  </article>
+
+</webpage>

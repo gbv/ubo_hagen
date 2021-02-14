@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <webpage lastModified="$Date$" id="contact">
-  <title xml:lang="de">Kontakt - Hochschulbibliographie</title>
-  <title xml:lang="en">Contact - University Bibliography</title>
+  <title xml:lang="de">Ansprechpersonen</title>
+  <title xml:lang="en">Contact</title>
 
   <article class="card" xml:lang="de">
     <div class="card-body">
-      <h3>Kontakt</h3>
       <p>
-        Haben Sie Fragen zur Hochschulbibliographie oder benötigen Hilfe oder Beratung, melden Sie sich bei uns:
-      </p>
-      <p>
-        Andreas Lorenz<br/>
-        <a href="mailto:bibliographie@fernuni-hagen.de">bibliographie@fernuni-hagen.de</a><br/>
-        Tel.: +49 2331 987-2909 <br/>
+        Anna Wegelin<br />
+        Tel. 0 23 31 / 9 87 – 11 62<br />
+        Gebäude 8, Raum 0C241<br />
+        E-Mail: <a href="mailto:hochschulbibliographie@fernuni-hagen.de">hochschulbibliographie@fernuni-hagen.de</a>
       </p>
     </div>
-  </article>
-
-  <article class="card" xml:lang="en">
-      <div class="card-body">
-        <h3>Contact</h3>
-        <p>
-        If you have questions to the university bibliography, or need advice or consultation, please contact us:
-        </p>
-        <p>
-          Andreas Lorenz<br/>
-          <a href="mailto:bibliographie@fernuni-hagen.de">bibliographie@fernuni-hagen.de</a><br/>
-          Phone: +49 2331 987-2909 <br/>
-        </p>
-      </div>
   </article>
 
 </webpage>

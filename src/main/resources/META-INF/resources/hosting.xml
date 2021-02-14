@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage lastModified="$Date$" id="hosting">
+  <title xml:lang="de">Betrieb &amp; Grundlagen</title>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <p>
+        Die <a href="https://www.gbv.de/Verbundzentrale">Verbundzentrale des Gemeinsamen Bibliotheksverbundes</a> (VZG des GBV)
+        übernimmt als Dienstleister im Auftrag der FernUniversität in Hagen den technischen Betrieb der Hochschulbibliographie.
+      </p>
+      <p>
+        Die elektronischen Dokumente werden mithilfe strukturierter Metadaten beschrieben. Die Metadaten werden in einem
+        MODS-basierten bibliografischen Format gespeichert. Das <a href="http://www.loc.gov/standards/mods/">Metadata Object
+        Description Schema</a> (MODS) ist ein XML-Format, welches von der Library of Congress in den USA verwaltet und
+        weiterentwickelt wird. Die Metadaten können in gängige, bibliografische Formate exportiert werden. Zur Verfügung stehen
+        unter anderem die Formate BibTex für LaTeX oder RIS für Citavi und Endnote.
+      </p>
+    </div>
+  </article>
+
+</webpage>

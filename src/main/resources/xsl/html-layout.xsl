@@ -318,7 +318,7 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                   <i class="fas fa-home pr-1"></i>
-                  <a href="https://www.tu-ilmenau.de/ub/">
+                  <a href="http://www.ub.fernuni-hagen.de/">
                     <xsl:value-of select="i18n:translate('navigation.UB')" />
                   </a>
                 </li>
@@ -468,10 +468,10 @@
       <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
         <div class="row mt-auto">
-          <div class="col">
+          <div class="col -8">
             <xsl:call-template name="layout.imprintline" />
           </div>
-          <div class="col text-right">
+          <div class="col-4 text-right">
             <xsl:call-template name="powered_by"/>
           </div>
         </div>
@@ -496,10 +496,10 @@
   </xsl:template>
 
   <xsl:template name="powered_by">
-    <xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" />
+    <!-- xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" / -->
     <div id="powered_by">
-      <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+      <a href="https://www.fernuni-hagen.de/">
+        <img src="{$WebApplicationBaseURL}images/FeULogoWT.png" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
       </a>
     </div>
   </xsl:template>

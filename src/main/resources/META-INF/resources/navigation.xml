@@ -79,13 +79,25 @@
   </item>
 
   <item role="meta">
+    <item ref="service.xml">
+      <label xml:lang="de">Unser Service</label>
+      <label xml:lang="en">Our Service</label>
+    </item>
+    <item ref="profile.xml">
+      <label xml:lang="de">Profil</label>
+      <label xml:lang="en">Profile</label>
+    </item>
     <item ref="contact.xml">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
     </item>
-    <item ref="impressum.xml">
+    <item ref="imprint.xml">
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Imprint</label>
+    </item>
+    <item ref="hosting.xml">
+      <label xml:lang="de">Betrieb &amp; Grundlagen</label>
+      <label xml:lang="en">Hosting</label>
     </item>
     <item ref="privacy.xml">
       <label xml:lang="de">Datenschutz</label>
