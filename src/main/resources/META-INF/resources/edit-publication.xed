@@ -150,12 +150,6 @@
         </xed:bind>
     
       </xed:form>
-          <script type="text/javascript">
-            $(document).ready(function() {
-              // remove dhsbid and connection is as option from person id selection.xml
-              $("select#personId option[value='connection']").remove();
-            });
-          </script>
     </div>
    </article>
 </webpage>

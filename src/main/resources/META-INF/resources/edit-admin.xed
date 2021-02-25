@@ -112,11 +112,6 @@
         <xed:include uri="webapp:import-editor.xed" ref="cancel.submit" />
       </xed:template>
     </xed:form>
-          <script type="text/javascript">
-            $(document).ready(function() {
-              $("select#personId option[value='connection']").remove();
-            });
-          </script>
    </div>
   </article>
 </webpage>
