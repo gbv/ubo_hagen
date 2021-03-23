@@ -3,7 +3,7 @@
 <webpage lastModified="$Date$" id="profile">
   <title xml:lang="de">FAQ – Hochschulbibliographie</title>
 
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Was ist die Hochschulbibliographie?</h3>
       <p>
@@ -21,7 +21,7 @@
     </div>
   </article>
 
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Welche Publikationen werden in der Hochschulbibliographie nachgewiesen?</h3>
       <p>
@@ -35,7 +35,7 @@
     </div>
   </article>
 
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Was wird nicht in der Hochschulbibliographie nachgewiesen?</h3>
       <p>
@@ -48,7 +48,7 @@
     </div>
   </article>
   
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Aus welchem Zeitraum werden Publikationen nachgewiesen?</h3>
       <p>
@@ -58,7 +58,7 @@
     </div>
   </article>
   
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Wie melde ich meine Publikationen?</h3>
       <p>
@@ -72,7 +72,7 @@
     </div>
   </article>
   
-  <article class="card" xml:lang="de">
+  <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Ich möchte einen Datensatz korrigieren, wo und wie kann ich das machen?</h3>
       <p>
