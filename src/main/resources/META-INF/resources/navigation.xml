@@ -75,9 +75,9 @@
       <label xml:lang="de">Unser Service</label>
       <label xml:lang="en">Our Service</label>
     </item>
-    <item ref="profile.xml">
-      <label xml:lang="de">Profil</label>
-      <label xml:lang="en">Profile</label>
+    <item ref="faq.xml">
+      <label xml:lang="de">FAQ</label>
+      <label xml:lang="en">FAQ</label>
     </item>
     <item ref="contact.xml">
       <label xml:lang="de">Kontakt</label>

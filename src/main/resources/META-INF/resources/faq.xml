@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage lastModified="$Date$" id="profile">
+  <title xml:lang="de">FAQ – Hochschulbibliographie</title>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Was ist die Hochschulbibliographie?</h3>
+      <p>
+        Die Hochschulbibliographie der FernUniversität in Hagen ist eine Dienstleistung der Universitätsbibliothek Hagen mit dem Ziel, Mitgliedern
+        und Angehörigen der FernUniversität die professionelle Verzeichnung ihrer wissenschaftlichen Publikationen zu ermöglichen.
+      </p>
+      <p>
+        Die Universitätsbibliothek berät Sie zu allen Fragen der bibliographischen Verzeichnung Ihrer Publikationen und stellt sicher, dass eine
+        normgerechte und professionelle Eintragung erfolgt.
+      </p>
+      <p>
+        Unser Service erhöht damit direkt die Sichtbarkeit Ihrer Publikationstätigkeit und bietet unter anderem die Möglichkeit, persönliche
+        Literaturlisten in verschiedenen Formaten, wie BibTex, PDF, RIS (Citavi), Endnote, HTML zu exportieren und weiter zu verwenden.
+      </p>
+    </div>
+  </article>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Welche Publikationen werden in der Hochschulbibliographie nachgewiesen?</h3>
+      <p>
+        Die Hochschulbibliographie verzeichnet veröffentlichte Publikationen von Personen an der FernUniversität in Hagen und umfasst vor allem
+        Monographien, Beiträge in Fachzeitschriften, Konferenzbeiträge sowie Dissertationen und Habilitationen.
+      </p>
+      <p>
+        Maßgeblich für die Erfassung ist, dass die Publikation unter Beteiligung mindestens einer der FernUniversität angehörigen Person verfasst
+        wurde.
+      </p>
+    </div>
+  </article>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Was wird nicht in der Hochschulbibliographie nachgewiesen?</h3>
+      <p>
+        Reines Begleitmaterial zu Tagungen und Kongressen, wie Vorträge mit Annotationen oder Foliensammlungen; Vorlesungsmaterial, Hausarbeiten,
+        Studienbriefe, Diplom-, Bachelor- oder Masterarbeiten, Briefe, Patente, Normen (es sei denn, sie sind im Verlag publiziert oder im Repository
+        veröffentlicht). Namentlich nicht gekennzeichnete Lexikonbeiträge, Filme, Fernsehmitschnitte, Videos, Musik, Rundfunkmitschnitte, Bilder,
+        Folien, Software, Veröffentlichung im Internet, welche nicht auf Bibliotheksservern bzw. bei bekannten Datenbankanbietern abgelegt sind,
+        werden nicht erfasst. 
+      </p>
+    </div>
+  </article>
+  
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Aus welchem Zeitraum werden Publikationen nachgewiesen?</h3>
+      <p>
+        Die Publikationsdaten werden retrospektiv in die Hochschulbibliographie verzeichnet und erstrecken sich über den gesamten Zeitraum der
+        FernUniversität in Hagen.
+      </p>
+    </div>
+  </article>
+  
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Wie melde ich meine Publikationen?</h3>
+      <p>
+        Sie können Ihre Publikation unter dem Punkt “Publikation melden” einreichen. Der Eintrag wird von uns überprüft und dann freigeschaltet.
+      </p>
+      <p>
+        Alternativ können Sie uns auch Listen mit Ihren Publikationen per E-Mail an <a href="mailto:hochschulbibliographie@fernuni-hagen.de"
+        >hochschulbibliographie@fernuni-hagen.de</a> schicken. Wir werden diese dann in die Hochschulbibliographie einarbeiten. Mögliche
+        Datenformate dabei sind z. B. BibTex, RIS, Word, Excel, PDF etc.
+      </p>
+    </div>
+  </article>
+  
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+      <h3>Ich möchte einen Datensatz korrigieren, wo und wie kann ich das machen?</h3>
+      <p>
+        Einen abgesendeten oder bereits verzeichneten Datensatz können nur die Mitarbeiter*innen der Hochschulbibliographie korrigieren.<br />
+        Bitte senden Sie uns hierzu eine E-Mail an: <a href="mailto:hochschulbibliographie@fernuni-hagen.de">hochschulbibliographie@fernuni-hagen.de</a>
+      </p>
+    </div>
+  </article>
+</webpage>
