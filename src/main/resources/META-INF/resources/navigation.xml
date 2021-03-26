@@ -75,10 +75,10 @@
       <label xml:lang="de">Unser Service</label>
       <label xml:lang="en">Our Service</label>
     </item>
-    <item ref="faq.xml">
+    <!-- item ref="faq.xml">
       <label xml:lang="de">FAQ</label>
       <label xml:lang="en">FAQ</label>
-    </item>
+    </item -->
     <item ref="contact.xml">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
