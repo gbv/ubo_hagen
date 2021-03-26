@@ -1,13 +1,30 @@
-$body-bg: white;
+// web page
+$hagenLink:           #4645A4;
+$hagenVisited:        #6B2906;
+$hagenGray:           #e8e8ea;
+$hagenBlue:           #2a2a94;
+$hagenYellow:         rgb(208,168,72);
 
-$bg-color-breadcrumb: #174488;
+// reposis
+$hagenRHover:         #6969d4;
+$hagenRLink:          #494999;
+$hagenRLinkAlt:       #3838c2;
+$hagenRLinkHover:     #f39c12;
+$hagenRInfoBack:      #dce4ec;
+$hagenRButton:        #9d9d9d;
+$hagenRButtonHover:   #848484;
+$hagenRButtonBorder:  #7e7e7e;
+// project variables
 
-$color-light-blue: #2a2a94;
-$color-dark-blue:  #2a2a94;
 
-$badge-font-weight: normal;
+// bs overwrite
+$primary:             $hagenBlue;
+$secondary:           $hagenRInfoBack;
+$border-radius:       4px;
 
-/* add new/overwrite custom colors */
+$body-bg:             white;
+$badge-font-weight:   normal;
+
 $theme-colors: (
-  alternative: #2a2a94
+  alternative: $secondary
 );

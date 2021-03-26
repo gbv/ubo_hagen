@@ -1,21 +1,19 @@
-/*  header settings
- *  - settings for the page header
+/*  typographie settings
+ *  - all about common texts and text design
+ *  - special sections may contain own typo settings
  */
 
 // Extra large devices (large desktops)
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-  header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
 
-  #wordmark {
-    background: url("../../../images/ubo_hagen_logo.png") no-repeat;
-    height: 50px;
-    background-size: contain;
-  }
+h1, .h1 { font-size: 2rem; }
+h2, .h2 { font-size: 1.6rem; }
+h3, .h3 { font-size: 1.4rem; }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
