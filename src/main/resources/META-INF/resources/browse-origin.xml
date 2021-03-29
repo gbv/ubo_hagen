@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage lastModified="$Date$" id="dozbib.browse.origin">
+  <title xml:lang="de">Blättern in Einrichtungen</title>
+  <title xml:lang="en">Browse institutions</title>
+
+  <article class="card" xml:lang="de">
+    <div class="card-body">
+        <classificationbrowser classification="ORIGIN"
+                                   objecttype="mods"
+                                  restriction="+status:&quot;confirmed&quot;"
+                                        field="category.top"
+                                 countresults="true"
+                                   addclassid="true"
+                                  emptyleaves="false"
+                                        style="bootstrap"
+                                   parameters="sort=mods.dateIssued+desc" />
+
+    </div>
+  </article>
+
+</webpage>
