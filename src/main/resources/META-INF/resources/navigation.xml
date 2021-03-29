@@ -12,7 +12,7 @@
       <label xml:lang="en">Search</label>
       <item id="dozbib.search" />
     </item>
-    <item ref="browse-origin.xml" id="hagen.browse.origin">
+    <item ref="browse-origin.xml" id="dozbib.browse.origin">
       <label xml:lang="de">Einrichtungen</label>
       <label xml:lang="en">Institutions</label>
     </item>

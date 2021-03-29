@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 
-<MyCoReWebPage>
+<webpage lastModified="$Date$" id="dozbib.browse.origin">
+  <title xml:lang="de">Blättern in Einrichtungen</title>
+  <title xml:lang="en">Browse institutions</title>
 
-  <section i18n="browse.ORIGIN" xml:lang="all">
-
-    <div class="row">
-      <div class="col-md-12" lang="de">
+  <article class="card" xml:lang="de">
+    <div class="card-body">
         <classificationbrowser classification="ORIGIN"
                                    objecttype="mods"
                                   restriction="+status:&quot;confirmed&quot;"
@@ -17,9 +16,7 @@
                                         style="bootstrap"
                                    parameters="sort=mods.dateIssued+desc" />
 
-      </div>
     </div>
+  </article>
 
-  </section>
-
-</MyCoReWebPage>
+</webpage>
