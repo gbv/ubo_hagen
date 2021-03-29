@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+
+<MyCoReWebPage>
+
+  <section i18n="browse.ORIGIN" xml:lang="all">
+
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <classificationbrowser classification="ORIGIN"
+                                   objecttype="mods"
+                                  restriction="+status:&quot;confirmed&quot;"
+                                        field="category.top"
+                                 countresults="true"
+                                   addclassid="true"
+                                  emptyleaves="true"
+                                        style="bootstrap"
+                                   parameters="sort=mods.dateIssued+desc" />
+                                 <!-- addParameter="XSL.template=template_mir" -->
+
+      </div>
+    </div>
+
+  </section>
+
+</MyCoReWebPage>
