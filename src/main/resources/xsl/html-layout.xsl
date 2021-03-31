@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0" 
+<xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xalan="http://xml.apache.org/xalan"
   xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-  xmlns:encoder="xalan://java.net.URLEncoder" 
+  xmlns:encoder="xalan://java.net.URLEncoder"
   xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
   exclude-result-prefixes="xsl xalan i18n encoder mcrver">
 
@@ -26,7 +26,7 @@
   <xsl:include href="html-layout-backend.xsl" />
 
   <!-- ==================== HTML ==================== -->
-  
+
   <xsl:template match="/html">
     <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html>
 
@@ -53,9 +53,7 @@
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.css" type="text/css"/>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/font-awesome/{$font-awesome.version}/css/all.css" type="text/css"/>
       <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Droid+Sans|Droid+Sans+Mono:300,400" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto:300,400" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto+Condensed:300,400" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Amiri:300,400" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Lato:400,700" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
@@ -86,7 +84,7 @@
 
   <xsl:template name="layout.headline">
     <div id="headlineWrapper">
-      <div class="container w-50">
+      <div class="container">
         <div class="row">
           <div class="col">
             <h3 id="seitentitel">
@@ -294,7 +292,7 @@
 
   <xsl:template name="layout.inhalt">
     <section role="main" id="inhalt">
-    
+
       <xsl:choose>
         <xsl:when test="$allowed.to.see.this.page = 'true'">
           <xsl:copy-of select="body/*[not(@id='sidebar')][not(@id='breadcrumb')]" />
@@ -435,7 +433,7 @@
 
   </xsl:template>
 
-  <!-- If current user has ORCID and we are his trusted party, display ORCID icon to indicate that -->  
+  <!-- If current user has ORCID and we are his trusted party, display ORCID icon to indicate that -->
   <xsl:param name="MCR.ORCID.LinkURL" />
 
   <xsl:template name="orcidUser">
@@ -443,7 +441,7 @@
     <xsl:variable name="orcidUser" select="orcidSession:getCurrentUser()" xmlns:orcidSession="xalan://org.mycore.orcid.user.MCRORCIDSession" />
     <xsl:variable name="userStatus" select="orcidUser:getStatus($orcidUser)" xmlns:orcidUser="xalan://org.mycore.orcid.user.MCRORCIDUser" />
     <xsl:variable name="trustedParty" select="userStatus:weAreTrustedParty($userStatus)" xmlns:userStatus="xalan://org.mycore.orcid.user.MCRUserStatus" />
-    
+
     <xsl:if test="$trustedParty = 'true'">
       <xsl:variable name="orcid" select="orcidUser:getORCID($orcidUser)" xmlns:orcidUser="xalan://org.mycore.orcid.user.MCRORCIDUser" />
       <a href="{$MCR.ORCID.LinkURL}{$orcid}">
@@ -461,7 +459,7 @@
       </div>
     </div>
   </xsl:template>
-  
+
   <!-- Footer -->
 
   <xsl:template name="layout.footer">
