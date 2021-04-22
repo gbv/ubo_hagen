@@ -404,32 +404,6 @@
         </xsl:otherwise>
       </xsl:choose>
     </div>
-    <div class="nav-item">
-      <span class="btn p-0">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:choose>
-              <xsl:when test="$CurrentLang='de'">
-                <xsl:call-template name="UrlSetParam">
-                  <xsl:with-param name="url" select="$RequestURL" />
-                  <xsl:with-param name="par" select="'lang'" />
-                  <xsl:with-param name="value" select="'en'" />
-                </xsl:call-template>
-              </xsl:when>
-              <xsl:when test="$CurrentLang='en'">
-                <xsl:call-template name="UrlSetParam">
-                  <xsl:with-param name="url" select="$RequestURL" />
-                  <xsl:with-param name="par" select="'lang'" />
-                  <xsl:with-param name="value" select="'de'" />
-                </xsl:call-template>
-              </xsl:when>
-            </xsl:choose>
-          </xsl:attribute>
-          <!-- <img src="{$WebApplicationBaseURL}images/lang_{$CurrentLang}.gif" alt="{i18n:translate('navigation.Language')}" /> -->
-          <xsl:value-of select="i18n:translate('navigation.ende')"/>
-        </a>
-      </span>
-    </div>
 
   </xsl:template>
 

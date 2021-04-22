@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <webpage lastModified="$Date$" id="dozbib">
- <title xml:lang="de">Willkommen bei der Hochschulbibliographie der FernUniversität Hagen</title>
- <title xml:lang="en">Welcome to Bibliography of FU Hagen</title>
+ <title xml:lang="de">Willkommen bei der Hochschulbibliographie der FernUniversität in Hagen</title>
+ <title xml:lang="en">Welcome to Bibliography of FU in Hagen</title>
  
  <article class="card mb-3" xml:lang="de">
    <div class="card-body">
@@ -18,7 +18,7 @@
       <p>
         Mit der Hochschulbibliographie soll das wissenschaftliche Profil der FernUniversität sichtbar gemacht werden.
       </p>
-      <h3>Sie sind Angehöriger der FernUniversität Hagen?</h3>
+      <h3>Sie sind Angehörige*r der FernUniversität in Hagen?</h3>
       <p>
         Helfen Sie uns bei der Vervollständigung!<br/>
         <a href="newPublication.xed">Hier können Sie Ihre Publikation an die Hochschulbibliographie melden</a>
@@ -32,7 +32,7 @@
         is under construction
       </p>
       <h3>
-        As a member of FU Hagen</h3>
+        As a member of FU in Hagen</h3>
       <p>
         Help us to complete the bibliography!<br/>
         <a href="newPublication.xed">Here you can register your own publication</a>
