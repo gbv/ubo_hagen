@@ -261,7 +261,7 @@
       <div class="container" id="">
         <div class="row">
           <div class="col header-brand">
-            <a title="Zur Startseite" class="imageLink" href="http://www.ub.fernuni-hagen.de/">
+            <a title="Zur Startseite" class="imageLink" href="{$WebApplicationBaseURL}">
               <div id="wordmark" />
             </a>
           </div>
@@ -441,7 +441,7 @@
       <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
         <div class="row mt-auto">
-          <div class="col -8">
+          <div class="col-8">
             <xsl:call-template name="layout.imprintline" />
           </div>
           <div class="col-4 text-right">

@@ -14,9 +14,6 @@
       <xed:cancel url="index.xed" />
 
       <fieldset>
-        <legend>
-          <xed:output i18n="search.dozbib" />
-        </legend>
 
         <xed:include uri="webapp:import-search.xed" ref="validation" />
 

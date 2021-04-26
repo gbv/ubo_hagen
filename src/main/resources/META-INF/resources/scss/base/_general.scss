@@ -39,6 +39,17 @@
     color: $hagenRButton;
   }
 
+  #watermark_testenvironment {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0.5;
+    z-index: 200;
+    color: #ff8300;;
+    font-size: 32px;
+    font-weight: bold;
+  } 
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
