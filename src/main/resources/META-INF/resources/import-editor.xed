@@ -573,7 +573,7 @@
               <option value="ieee">IEEE ID</option>
               <option value="arxiv">arXiv.org ID</option>
               <option value="scopus">Scopus ID</option>
-              <option value="hagen">Deposit Hagen ID</option>
+              <option value="hagen">deposit_hagen ID</option>
             </select>:
           </xed:bind>
         </div>
@@ -602,7 +602,7 @@
               <option value="evaluna">EVALuna ID</option>
               <option value="ppn">GBV PPN</option>
               <option value="hbz">HBZ HT-Nummer</option>
-              <option value="hagen">Deposit Hagen ID</option>
+              <option value="hagen">deposit_hagen ID</option>
           </select>:
           </xed:bind>
         </div>

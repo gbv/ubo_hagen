@@ -41,7 +41,7 @@
                       <option value="arxiv">arXiv.org ID</option>
                       <option value="isbn">ISBN</option>
                       <xed:if test="xed:call-java('org.mycore.ubo.AccessControl','currentUserIsAdmin')">
-                        <option value="hagen">Deposit Hagen ID</option>
+                        <option value="hagen">deposit_hagen ID</option>
                         <option value="zdb">ZDB ID</option>
                         <option value="ppn">GBV/SWB PPN</option>
                         <option value="hbz">HBZ HT-Nummer</option>
