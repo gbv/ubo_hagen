@@ -61,7 +61,7 @@
 
             <xed:if test="xed:call-java('org.mycore.ubo.AccessControl','currentUserIsAdmin')">
               <xed:include uri="webapp:import-editor.xed" ref="shelfmark" />
-              <xed:validate xpath="//mods:location/mods:shelfLocator" matches="(\d\d\/\d\d\s[A-Za-z]+\s\d+.*)|([A-Z]{3,4}\d+[A-Z_d\-+,()\d]*)" i18n="ubo.shelfmark.validation" display="global" />
+              <xed:validate xpath="//mods:location/mods:shelfLocator" matches="[A-Za-z]{3,4}/[A-Za-z]{3,4}" i18n="ubo.shelfmark.validation" display="global" />
             </xed:if>
 
             <div>
