@@ -10,16 +10,16 @@
       <xed:form xmlns:xed="http://www.mycore.de/xeditor"
                 xmlns:cerif="https://www.openaire.eu/cerif-profile/1.1/"
                 method="post" role="form">
-	
-	<xed:source uri="xslStyle:mods-preprocessor:mcrobject:{$id}" />
-	<xed:source uri="xslStyle:mods2mycoreobject,mods-preprocessor:session:{$key}" />
 
-    <xed:cancel url="servlets/MCRLockServlet?action=unlock&amp;id={$id}&amp;url=DozBibEntryServlet%3Fid={$id}" />
-	<xed:cancel url="newPublication.xed" />
+        <xed:source uri="xslStyle:mods-preprocessor:mcrobject:{$id}" />
+        <xed:source uri="xslStyle:mods2mycoreobject,mods-preprocessor:session:{$key}" />
+
+        <xed:cancel url="servlets/MCRLockServlet?action=unlock&amp;id={$id}&amp;url=DozBibEntryServlet%3Fid={$id}" />
+        <xed:cancel url="newPublication.xed" />
         
-	<xed:post-processor xsl="mods-postprocessor.xsl" />    
+        <xed:post-processor xsl="mods-postprocessor.xsl" />
 	
-	<xed:bind xpath="/mycoreobject">
+        <xed:bind xpath="/mycoreobject">
           <xed:include uri="webapp:import-editor.xed" ref="common.metafields" />
           
           <xed:choose>
@@ -30,9 +30,9 @@
               <p>Sie sind nicht berechtigt, dieses Formular zu verwenden.</p>
             </xed:otherwise>
           </xed:choose>
-	</xed:bind>
+        </xed:bind>
 
-	<xed:template id="editor">
+        <xed:template id="editor">
           <input type="hidden" name="mode" value="save" />
           <xed:include uri="webapp:import-editor.xed" ref="validation" />
           <fieldset>
@@ -64,9 +64,9 @@
               <xed:include uri="webapp:import-editor.xed" ref="identifier" />
               <xed:include uri="webapp:import-editor.xed" ref="shelfmark" />
               <xed:include uri="webapp:import-editor.xed" ref="url" />
-              <xed:include uri="webapp:import-editor.xed" ref="languages" />    
+              <xed:include uri="webapp:import-editor.xed" ref="languages" />
           </fieldset>
-          <xed:include uri="webapp:import-editor.xed" ref="relations" />    
+          <xed:include uri="webapp:import-editor.xed" ref="relations" />
           <fieldset>
             <legend>erschienen in:</legend>
             <xed:bind xpath="mods:relatedItem[@type='host']">
@@ -76,8 +76,10 @@
                   <xed:include uri="webapp:import-editor.xed" ref="volume" />
                   <xed:include uri="webapp:import-editor.xed" ref="issue" />
                   <xed:include uri="webapp:import-editor.xed" ref="pages" />
+                  <xed:include uri="webapp:import-editor.xed" ref="article_number" />
                 </xed:when>
                 <xed:otherwise>
+                  <xed:include uri="webapp:import-editor.xed" ref="linked.relatedItem" />
                   <xed:include uri="webapp:import-editor.xed" ref="host" />
                   <xed:include uri="webapp:import-editor.xed" ref="oa" />    
                   <xed:include uri="webapp:import-editor.xed" ref="title.complex" />
@@ -91,6 +93,7 @@
                   <xed:include uri="webapp:import-editor.xed" ref="edition" />
                   <xed:include uri="webapp:import-editor.xed" ref="series" />
                   <xed:include uri="webapp:import-editor.xed" ref="pages" />
+                  <xed:include uri="webapp:import-editor.xed" ref="article_number" />
                   <xed:include uri="webapp:import-editor.xed" ref="identifier" />
                   <xed:include uri="webapp:import-editor.xed" ref="shelfmark" />
                   <xed:include uri="webapp:import-editor.xed" ref="url" />
