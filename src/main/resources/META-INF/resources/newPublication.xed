@@ -36,7 +36,6 @@
                     <select class="form-control custom-select">
                       <option value="doi">DOI</option>
                       <option value="pubmed">PubMed ID</option>
-                      <option value="scopus">Scopus ID</option>
                       <option value="ieee">IEEE Article No.</option>
                       <option value="arxiv">arXiv.org ID</option>
                       <option value="isbn">ISBN</option>
@@ -44,7 +43,6 @@
                         <option value="hagen">deposit_hagen ID</option>
                         <option value="zdb">ZDB ID</option>
                         <option value="ppn">GBV/SWB PPN</option>
-                        <option value="hbz">HBZ HT-Nummer</option>
                         <option value="issn">ISSN</option>
                       </xed:if>
                       </select>:
@@ -59,10 +57,11 @@
             <xed:validate xpath="//mods:identifier[@type='isbn']" matches="^((978|979)-?)?([\d -]{12}|\d{9})(\d|X)$" i18n="ubo.identifier.isbn.validation" display="global" />
             <xed:validate xpath="//mods:identifier[@type='hagen']" matches=".*_mods_\d\d\d\d\d\d\d\d" display="global" />
 
-            <xed:if test="xed:call-java('org.mycore.ubo.AccessControl','currentUserIsAdmin')">
+            <!-- No enrichment resolver for shelfmark configured -->
+            <!-- xed:if test="xed:call-java('org.mycore.ubo.AccessControl','currentUserIsAdmin')">
               <xed:include uri="webapp:import-editor.xed" ref="shelfmark" />
-              <xed:validate xpath="//mods:location/mods:shelfLocator" matches="[A-Za-z]{3,4}/[A-Za-z]{3,4}" i18n="ubo.shelfmark.validation" display="global" />
-            </xed:if>
+              <xed:validate xpath="//mods:location/mods:shelfLocator" matches="(\d\d\/\d\d\s[A-Za-z]+\s\d+.*)|([A-Z]{3,4}\d+[A-Z_d\-+,()\d]*)" i18n="ubo.shelfmark.validation" display="global" />
+            </xed:if -->
 
             <div>
               <p>
