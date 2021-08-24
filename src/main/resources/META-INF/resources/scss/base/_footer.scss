@@ -43,6 +43,10 @@
     padding-right: 0;
     padding-left: 0;
   }
+  
+  .imprintlinewrapper img {
+    vertical-align: text-top;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
