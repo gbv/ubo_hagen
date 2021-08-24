@@ -34,6 +34,15 @@
     letter-spacing: 0.02em;
     margin-right: 32px;
   }
+  
+  .imprintlinewrapper a.nav-link:hover {
+    color:white;
+  }
+  
+  .imprintlinewrapper .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

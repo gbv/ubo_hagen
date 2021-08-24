@@ -33,6 +33,8 @@
     </xsl:text>
     <html lang="{$CurrentLang}">
       <xsl:apply-templates select="head" />
+      <!-- include Internet Explorer warning -->
+      <xsl:call-template name="msie-note" />
       <xsl:call-template name="layout" />
     </html>
   </xsl:template>
@@ -52,8 +54,7 @@
       <script type="text/javascript" src="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.js"></script>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.css" type="text/css"/>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/font-awesome/{$font-awesome.version}/css/all.css" type="text/css"/>
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Droid+Sans|Droid+Sans+Mono:300,400" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Lato:400,700" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto+Condensed&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
@@ -440,9 +441,9 @@
     <footer>
       <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
-        <div class="row mt-auto">
+        <div class="row mt-auto imprintlinewrapper">
           <div class="col-8">
-            <xsl:call-template name="layout.imprintline" />
+            <xsl:call-template name="layout.metanav" />
           </div>
           <div class="col-4 text-right">
             <xsl:call-template name="powered_by"/>
@@ -450,22 +451,6 @@
         </div>
       </div>
     </footer>
-  </xsl:template>
-
-  <!-- Imprintline (below footer) -->
-  <xsl:template name="layout.imprintline">
-    <xsl:variable name="metanavigation" select="$navigation.tree/item[@role='meta']/item"/>
-    <!-- TODO: use navigation.xml to generate this AND use correct language! -->
-    <div class="imprintlinewrapper">
-      <xsl:for-each select="$metanavigation" >
-        <span>
-          <a href="{$WebApplicationBaseURL}{@ref}">
-            <xsl:copy-of select="@target" />
-            <xsl:call-template name="output.label.for.lang" />
-          </a>
-        </span>
-      </xsl:for-each>
-    </div>
   </xsl:template>
 
   <xsl:template name="powered_by">
