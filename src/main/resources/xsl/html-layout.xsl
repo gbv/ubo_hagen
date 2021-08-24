@@ -54,7 +54,8 @@
       <script type="text/javascript" src="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.js"></script>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.css" type="text/css"/>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/font-awesome/{$font-awesome.version}/css/all.css" type="text/css"/>
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto+Condensed&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto:wght@300;400;700&amp;display=swap" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto+Condensed&amp;display=swap" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
