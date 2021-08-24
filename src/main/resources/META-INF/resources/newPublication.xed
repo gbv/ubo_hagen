@@ -36,6 +36,7 @@
                     <select class="form-control custom-select">
                       <option value="doi">DOI</option>
                       <option value="pubmed">PubMed ID</option>
+                      <option value="scopus">Scopus ID</option>
                       <option value="ieee">IEEE Article No.</option>
                       <option value="arxiv">arXiv.org ID</option>
                       <option value="isbn">ISBN</option>
