@@ -70,32 +70,32 @@
     </item>
   </item>
 
-  <item role="meta">
-    <item ref="service.xml">
+  <item menu="footer">
+    <item ref="service.xml" id="service">
       <label xml:lang="de">Unser Service</label>
       <label xml:lang="en">Our Service</label>
     </item>
-    <!-- item ref="faq.xml">
+    <!-- item ref="faq.xml" id="faq">
       <label xml:lang="de">FAQ</label>
       <label xml:lang="en">FAQ</label>
     </item -->
-    <item ref="contact.xml">
+    <item ref="contact.xml" id="contact">
       <label xml:lang="de">Kontakt</label>
       <label xml:lang="en">Contact</label>
     </item>
-    <item ref="imprint.xml">
+    <item ref="imprint.xml" id="impressum">
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Imprint</label>
     </item>
-    <item ref="hosting.xml">
+    <item ref="hosting.xml" id="hosting">
       <label xml:lang="de">Betrieb &amp; Grundlagen</label>
       <label xml:lang="en">Hosting</label>
     </item>
-    <item ref="privacy.xml">
+    <item ref="privacy.xml" id="privacy">
       <label xml:lang="de">Datenschutz</label>
       <label xml:lang="en">Privacy Notice</label>
     </item>
-    <item ref="accessibility.xml">
+    <item ref="accessibility.xml" id="accessibility">
       <label xml:lang="de">Barrierefreiheit</label>
       <label xml:lang="en">Accessibility</label>
     </item>

@@ -1,46 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<webpage lastModified="$Date$" id="contact">
-  <title xml:lang="de">Datenschutz</title>
+
+<webpage lastModified="$Date$" id="privacy">
+  <title xml:lang="de">Datenschutzerklärung</title>
   <title xml:lang="en">Privacy</title>
 
   <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <p>
-        Der verantwortungsvolle Umgang mit Ihren persönlichen Daten hat bei uns höchste Priorität. Daher möchten wir Sie
-        an dieser Stelle über die wichtigsten datenschutzrechtlich relevanten Aspekte unserer Hochschulbibliograpie
-        informieren.
+        Es gelten die <a href="https://www.fernuni-hagen.de/service/datenschutz.shtml">Datenschutzbestimmungen der FernUniversität in Hagen</a>,
+        zusätzlich gilt:
       </p>
-    </div>
-  </article>
 
-  <article class="card mb-3" xml:lang="de">
-    <div class="card-body">
-      <h3>Nutzungsanalyse / Nutzungsstatistik</h3>
+      <h2>I. Allgemeines zur Datenverarbeitung</h2>
+      
       <p>
-        Durch die Analyse der Nutzung der Hochschulbibliographie erhalten wir wertvolle Informationen, um unser Webangebot
-        zu verbessern. Dazu zählt zum Beispiel, wie oft bestimmte Inhalte aufgerufen wurden oder mit welchem Browser auf
-        welchen (mobilen) Geräten die Webseite betrachtet wurde. Die gespeicherten Daten verwendet die Universitätsbibliothek
-        Hagen ausschließlich zu statistischen Zwecken. Eine anderweitige Nutzung der Daten oder eine Weitergabe an Dritte
-        erfolgt nicht.
+        Zweck der Hochschulbibliographie ist die Bereitstellung einer weitgehend vollständigen Publikationsliste
+        aller Angehörigen der FernUniversität in Hagen.
+        Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies
+        zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist.
+        Dies geschieht zur Wahrnehmung der uns übertragenen Aufgabe der Unterstützung von Lehre und Forschung
+        gemäß Art. 6 Abs. 1 lit. e DSGVO.
+        Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung einholen,
+        dient Art. 6 Abs. 1 lit. a DSGVO als Rechtsgrundlage.
+        Eine Ausnahme gilt in solchen Fällen, in denen eine vorherige Einholung einer Einwilligung aus tatsächlichen
+        Gründen nicht möglich ist und die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist.
       </p>
-    </div>
-  </article>
-
-  <article class="card mb-3" xml:lang="de">
-    <div class="card-body">
-      <h3>Cookies</h3>
+      
+      <h2>II. Verbindungsdaten und Logfiles</h2>
+      
       <p>
-        Cookies sind kleine Textdateien, die beim Besuch einer Webseite auf Ihrem Computer gespeichert werden. Über Cookies
-        können Informationen zwischen Computerprogrammen ausgetauscht oder für einen beschränkten Zeitraum gespeichert werden.
-        Cookies können nur gespeichert werden, wenn Sie dies in den Einstellungen Ihres Browsers erlaubt haben. deposit_hagen
-        verwendet Cookies sehr sparsam. Das bedeutet, dass Sie diese Webseite grundsätzlich auch ohne Cookies betrachten können.
-        Die auf dieser Webseite eingesetzten Cookies haben zwei unterschiedliche Funktionen: Ein Teil der eingesetzten Cookies
-        gewährleistet, dass die Webseite einwandfrei funktioniert und angezeigt wird. Die Gültigkeit dieser Cookies ist auf den
-        Webseitenbesuch beschränkt. Sobald Sie Ihren Browser beenden, werden diese sogenannten „Session-Cookies“ gelöscht. Eine
-        Ausnahme bildet der Cookie, der die Anzeige des Datenschutzhinweises steuert. Damit Ihnen der Hinweis nicht bei jedem Besuch
-        erneut angezeigt wird, bleibt dieser drei Monate gültig.
+        Bei jedem Aufruf der Webseiten dieser Bibliographie überträgt Ihr Web-Browser automatisch Daten des aufrufenden Rechners.
+        Dies ist eine Grundfunktion des World Wide Web und nicht durch uns beeinflussbar. 
+        Dabei werden folgende Daten übertragen und in Log-Dateien gespeichert:
       </p>
+      <ul>
+        <li>Datum und Uhrzeit des Zugriffs</li>
+        <li>Adressen der aufgerufenen Webseiten</li>
+        <li>IP-Adresse des Nutzers, daraus ableitbar die Herkunft des Webseitenaufrufs (Land, Stadt oder Organisation, Internet Service Provider)</li>
+        <li>Informationen zum verwendeten Betriebssystem und Browsertyp</li>
+        <li>Adressen der Webseiten, von denen aus Sie auf unsere Webseiten gelangt sind</li>
+      </ul>
+      <p>
+        Die vorübergehende Verarbeitung dieser Verbindungsdaten ist zur Bereitstellung der Plattform technisch zwingend erforderlich.
+        Die Speicherung in Log-Dateien erfolgt zur Optimierung und Sicherstellung der Funktionsfähigkeit und Sicherheit der Plattform.
+        Die Daten in den Log-Dateien werden regelmäßig in anonymisierter Form zu statistischen Zwecken weiterverarbeitet.
+        Personenbezogene Zugriffsdaten werden nach 7 Tagen gelöscht.
+      </p>
+      
+      <h2>III. Session Cookies</h2>
+      
+      <p>
+        Die Hochschulbibliographie verwendet sogenannte Session Cookies.
+        Session-Cookies sind kleine Informationseinheiten, die ein Webserver
+        im Arbeitsspeicher des Computers des Besuchers speichert.
+        In einem Session-Cookie wird eine zufällig erzeugte
+        eindeutige Identifikationsnummer abgelegt, eine sogenannte Session-ID.
+        Außerdem enthält ein Cookie die Angabe über seine Herkunft und die Speicherfrist.
+        Diese Cookies können keine anderen Daten speichern.
+        Die von uns eingesetzten Session-Cookies sind für die Funktion unserer Webseite 
+        notwendig, damit Ihr Browser auch nach einem Seitenwechsel wiedererkannt wird.
+        Sie werden automatisch gelöscht, wenn Sie Ihren Webbrowser schließen.
+        Session Cookies werden nicht zur Erstellung von Nutzerprofilen verwendet.
+      </p>
+      
+      <h2>IV. Anmelde-Daten</h2>
+      
+      <p>
+        Eine Anmeldung (Login) mit persönlichen Daten ist nur zur Bearbeitung der Bibliographie
+        durch Hochschulangehörige erforderlich, nicht für die Suche nach oder den lesenden Zugriff
+        auf Publikationen.
+        Zur Veröffentlichung melden sich Hochschulangehörige mit einer lokal eingerichteten Kennung an.
+        Unsere Bibliographie verarbeitet und speichert folgende Nutzerdaten:
+      </p>  
+      <ul>
+        <li>Name</li>
+        <li>lokale Benutzerkennung</li>
+        <li>FernUni-ID (nur zu internen Zwecken, um z.B. später eine Zuordnung zum FIS zu ermöglichen)</li>
+        <li>Uhrzeit und Datum des letzten Logins</li>
+        <li>Benutzerrollen (z.B. Administrator*innen, die Rollen werden in der Bibliographie zugewiesen)</li>
+        <li>Verknüpfung zu den in dieser Bibliographie erfassten Publikationen, inkl. Datum und Uhrzeit der letzten Änderung</li>
+      </ul>  
+      <p>
+        Die Speicherung und Verarbeitung dieser Daten geschieht zur Wahrnehmung der uns 
+        übertragenen Aufgabe der Unterstützung von Lehre und Forschung gemäß Art. 6 Abs. 1 lit. e DSGVO 
+        und ist erforderlich
+      </p>
+      <ul>
+        <li>zum Nachweis der Berechtigung zur Nutzung der Bibliographie</li>
+        <li>zur Kommunikation mit Autor*innen</li>
+        <li>zum Nachweis der Urheberschaft an den Publikationen</li>
+      </ul>
+      
+      <h2>V. Publikationsdaten</h2>
+      
+      <p>
+        Zweck dieser Bibliographie ist die weltweite Bereitstellung einer weitgehend vollständigen Publikationsliste der
+        Angehörigen der FernUniversität in Hagen. Dazu speichern, verarbeiten und veröffentlichen
+        wir auch personenbezogene Daten der an Publikationen beteiligten Personen:  
+      </p>
+      <ul>
+        <li>Namen und Rollen (z. B. Autor, Herausgeber)</li>
+        <li>Eindeutige Autoren-Identifikatoren (z. B. ORCID iD, GND)</li>
+        <li>Informationen zur organisatorischen Zugehörigkeit (z. B. Hochschule, Fakultät, Institut)</li>
+      </ul>
+      <p>
+        Dies dient dem eindeutigen Nachweis und der Anerkennung der Urheberschaft.
+        Mit Übertragung der Publikationsmetadaten übertragen wir auch diese personenbezogenen Daten an Dritte
+        und stellen sie über Schnittstellen bereit:
+      </p>
+      <ul>
+        <li>an wissenschaftliche und allgemeine Suchmaschinen wie Google</li>
+        <li>an Dritte weltweit, über Schnittstellen wie OAI (Open Archives Initiative) und das Google Sitemap Protokoll</li>
+      </ul>
     </div>
   </article>
 
