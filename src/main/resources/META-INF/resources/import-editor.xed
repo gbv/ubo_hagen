@@ -15,7 +15,7 @@
     </xed:if>
     <xed:validate xpath="//mods:classification[@classID='fachreferate']" required="true" i18n="condition.subject" display="global" />
     <xed:validate xpath="/mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo/mods:title" required="true" i18n="ubo.title.validation" display="global" />
-    <xed:validate xpath="//mods:mods[not(mods:genre='journal')]/mods:name[@type='personal'][1]" test="string-length(mods:namePart[@type='family']) &gt; 0" i18n="ubo.role.author.validation" display="global" />
+    <xed:validate xpath="//mods:mods[not(mods:genre='journal') and string-length(mods:name[@type='corporate']/mods:namePart/text())=0]/mods:name[@type='personal'][1]" test="string-length(mods:namePart[@type='family']) &gt; 0" i18n="ubo.role.author.validation" display="global" />
     <xed:validate xpath="//mods:nameIdentifier[@type='orcid']" matches="\d{4}\-\d{4}\-\d{4}\-\d{3}[0-9X]" i18n="ubo.nameIdentifier.orcid.validation" display="global" />
     <xed:validate xpath="//mods:identifier[@type='doi']" matches="10\.\d+.*" i18n="ubo.identifier.doi.validation" display="global" />
     <xed:validate xpath="//mods:identifier[@type='urn']" matches="urn:nbn:[a-z]{2}:\S*" i18n="ubo.identifier.urn.validation" display="global" />
@@ -380,9 +380,9 @@
         </div>
       </xed:repeat>
       <div class="form-group form-inline col-12 px-0">
-        <label class="mycore-form-label">
-        </label>
         <xed:repeat xpath="mods:affiliation">
+          <label class="mycore-form-label">
+          </label>
           <textarea class="mycore-form-input" placeholder="Institutionelle Zugehörigkeit" />
         </xed:repeat>
       </div>
@@ -750,14 +750,16 @@
       <div class="form-group form-inline">
         <label class="mycore-form-label">in:</label>
         <div>
-          <a href="{$ServletsBaseURL}DozBibEntryServlet?id={.}">
-            <xed:output i18n="result.dozbib.entry" /> <xed:output value="number(substring-after(.,'_mods_'))" />
-          </a>
-          <br/>
-          <xed:include uri="xslStyle:relatedItem-editor:mcrobject:{.}" />
-          <button type="submit" class="btn btn-sm btn-primary" name="_xed_submit_remove:/mycoreobject/descendant::mods:relatedItem/@xlink:href[.='{.}']|host">
-            <xed:output i18n="ubo.relatedItem.host.unlink" />
-          </button>
+          <xed:if test="string-length(.) &gt; 0">
+            <a href="{$ServletsBaseURL}DozBibEntryServlet?id={.}">
+              <xed:output i18n="result.dozbib.entry" /> <xed:output value="number(substring-after(.,'_mods_'))" />
+            </a>
+            <br/>
+            <xed:include uri="xslStyle:relatedItem-editor:mcrobject:{.}" />
+            <button type="submit" class="btn btn-sm btn-primary" name="_xed_submit_remove:/mycoreobject/descendant::mods:relatedItem/@xlink:href[.='{.}']|host">
+              <xed:output i18n="ubo.relatedItem.host.unlink" />
+            </button>
+          </xed:if>
           <button class="btn btn-sm btn-primary" type="submit" xed:target="subselect" xed:href="../search.xed?id_type=id&amp;genre={../mods:genre[@type='intern']}">
             <xed:output i18n="ubo.relatedItem.host.select" />
           </button>
