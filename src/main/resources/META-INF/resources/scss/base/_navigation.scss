@@ -6,13 +6,20 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-a {
-  color: $primary;
-}
-
 // main nav
   #navigationWrapper {
     font-family: 'Roboto Condensed', Arial, sans-serif;
+    background-color: $primary;
+    .nav-item {
+      .nav-link {
+        color: white;
+      }
+      &.active {
+        .nav-link {
+          background-color: $hagenBlueHover;
+        }
+      }
+    }
   }
   li.nav-item.active > a {
     color: white;
@@ -59,7 +66,7 @@ a {
 
 // breadcrumb
   #breadcrumbWrapper {
-    background-color: $primary;
+    background-color: white;
   }
   .breadcrumb {
       display: flex;
@@ -70,16 +77,16 @@ a {
       border-radius: 0;
       font-size: 14px;
       font-family: 'Roboto Condensed', Arial, sans-serif;
-      background-color: $primary;
+      background-color: $white;
   }
   .breadcrumb-item + .breadcrumb-item::before {
       display: inline-block;
       padding-right: 0.5rem;
       content: "/";
-      color: white;
+      color: $primary;
   }
   .breadcrumb-item, .breadcrumb-item > a {
-      color: white;
+      color: $primary;
   }
 
 // basketinfo
