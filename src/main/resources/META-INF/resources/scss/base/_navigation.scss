@@ -47,12 +47,17 @@
   .nav-item .btn a {
     color: $primary;
   }
-  i.fas.fa-lg.fa-bars {
-    color: $primary;
+  #hauptnavigation i.fas.fa-lg.fa-bars {
+    color: white;
   }
-  .navbar-toggler {
+  #hauptnavigation .navbar-toggler {
     padding: 0;
     font-size: 25px;
+  }
+  #hauptnavigation .navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .dropdown-menu {
     border: 1px solid rgba(0,0,0,.15);

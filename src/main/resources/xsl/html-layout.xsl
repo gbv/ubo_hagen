@@ -443,10 +443,10 @@
       <div class="ribbon"></div>
       <div class="container info d-flex flex-column pl-0 pr-0">
         <div class="row mt-auto imprintlinewrapper">
-          <div class="col-8">
+          <div class="col-12 col-sm-6 col-lg-8">
             <xsl:call-template name="layout.metanav" />
           </div>
-          <div class="col-4 text-right">
+          <div class="col-12 col-sm-6 col-lg-4 text-right">
             <xsl:call-template name="powered_by"/>
           </div>
         </div>
@@ -458,7 +458,7 @@
     <!-- xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" / -->
     <div id="powered_by">
       <a href="https://www.fernuni-hagen.de/">
-        <img src="{$WebApplicationBaseURL}images/FeULogoWT.png" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
+        <img class="img-fluid" src="{$WebApplicationBaseURL}images/FeULogoWT.png" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
       </a>
     </div>
   </xsl:template>
