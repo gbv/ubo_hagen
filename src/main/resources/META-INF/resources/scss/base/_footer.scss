@@ -14,59 +14,52 @@
     bottom: 0;
     margin-top: auto;
     padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
-  footer .container {
-    margin-top: auto;
-  }
-
-  footer .info {
-    color: rgba(255,255,255,.4);
-    padding-bottom: 30px;
+  .hgn-footer-menu {
     font-family: 'Roboto Condensed',Arial,sans-serif;
-  }
-
-  .imprintlinewrapper a {
-    color: white;
-    font-size: 13px;
-    letter-spacing: 0.02em;
-  }
-
-  .imprintlinewrapper a.nav-link:hover {
-    color:white;
-  }
-
-  .imprintlinewrapper .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 2rem;
-  }
-
-  .imprintlinewrapper img {
-    vertical-align: text-top;
+    .navbar {
+      padding: 0;
+    }
+    a {
+      color: white;
+      font-size: 0.8125rem;
+      letter-spacing: 0.02em;
+    }
+    .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 2rem;
+      &:hover {
+        color:white;
+      }
+    }
   }
 
   #powered_by {
-    padding-right: 15px;
+    a {
+      display: block;
+      text-align: right;
+      img {
+        height: 50px;
+      }
+    }
   }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
-  footer .ribbon {
-    max-width: 1140px;
-  }
-  .imprintlinewrapper .navbar-nav .nav-link {
-    margin-right: 0;
+  .hgn-footer-menu {
+    .navbar-nav .nav-link {
+      margin-right: 0.5rem;
+    }
   }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
-  footer .ribbon {
-    max-width: 960px;
-  }
   footer .navbar-expand .navbar-nav {
     flex-direction: column;
   }
@@ -75,15 +68,12 @@
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
-  footer .ribbon {
-    max-width: 720px;
-  }
 }
 
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
-  footer .ribbon {
-    max-width: 540px;
+  #powered_by {
+    margin-top: 1rem;
   }
 }

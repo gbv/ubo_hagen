@@ -420,7 +420,7 @@
 
     <xsl:if test="$trustedParty = 'true'">
       <xsl:variable name="orcid" select="orcidUser:getORCID($orcidUser)" xmlns:orcidUser="xalan://org.mycore.orcid.user.MCRORCIDUser" />
-      <a href="{$MCR.ORCID.LinkURL}{$orcid}">
+      <a href="{$MCR.ORCID.LinkURL}{$orcid}" class="hgn-user-orcid">
         <img alt="ORCID {$orcid}" src="{$WebApplicationBaseURL}images/orcid_icon.svg" class="orcid-icon" />
       </a>
     </xsl:if>
@@ -440,13 +440,12 @@
 
   <xsl:template name="layout.footer">
     <footer>
-      <div class="ribbon"></div>
-      <div class="container info d-flex flex-column pl-0 pr-0">
-        <div class="row mt-auto imprintlinewrapper">
-          <div class="col-12 col-sm-6 col-lg-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-8 hgn-footer-menu">
             <xsl:call-template name="layout.metanav" />
           </div>
-          <div class="col-12 col-sm-6 col-lg-4 text-right">
+          <div class="col-12 col-sm-6 col-lg-4">
             <xsl:call-template name="powered_by"/>
           </div>
         </div>
@@ -458,7 +457,7 @@
     <!-- xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" / -->
     <div id="powered_by">
       <a href="https://www.fernuni-hagen.de/">
-        <img class="img-fluid" src="{$WebApplicationBaseURL}images/FeULogoWT.png" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
+        <img class="img-fluid" src="{$WebApplicationBaseURL}images/FeULogo.svg" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
       </a>
     </div>
   </xsl:template>
