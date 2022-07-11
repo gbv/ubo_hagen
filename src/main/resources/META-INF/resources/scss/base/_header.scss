@@ -7,13 +7,12 @@
 // no (xl) media query necessary (desktop first)
 
   header {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #wordmark {
-    background: url("../../../images/FeU_Hochschulbibliographie.svg") no-repeat;
-    height: 50px;
-    background-size: contain;
+    width: 560px;
+    max-width: 100%;
   }
   #headlineWrapper {
     padding-top: 60px;

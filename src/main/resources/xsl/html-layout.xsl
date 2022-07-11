@@ -54,8 +54,7 @@
       <script type="text/javascript" src="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.js"></script>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/jquery-ui/{$jquery-ui.version}/jquery-ui.css" type="text/css"/>
       <link rel="stylesheet" href="{$WebApplicationBaseURL}webjars/font-awesome/{$font-awesome.version}/css/all.css" type="text/css"/>
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto:wght@300;400;700&amp;display=swap" type="text/css" />
-      <link rel="stylesheet" href="https://webfonts.gbv.de/css2?family=Roboto+Condensed&amp;display=swap" type="text/css" />
+      <link rel="stylesheet" href="https://webfonts.gbv.de/css?family=Roboto:ital,wght@0,400;0,500;0,700;1,500" type="text/css" />
       <link rel="shortcut icon" href="{$WebApplicationBaseURL}images/favicon.ico" />
 
       <script type="text/javascript">var webApplicationBaseURL = '<xsl:value-of select="$WebApplicationBaseURL" />';</script>
@@ -265,7 +264,10 @@
         <div class="row">
           <div class="col header-brand">
             <a title="Zur Startseite" class="imageLink" href="{$WebApplicationBaseURL}">
-              <div id="wordmark" />
+              <img
+                id="wordmark"
+                class=""
+                src="{$WebApplicationBaseURL}images/FeU_Hochschulbibliographie.svg" />
             </a>
           </div>
           <nav class="col col-auto">
@@ -441,26 +443,63 @@
 
   <xsl:template name="layout.footer">
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-lg-8 hgn-footer-menu">
-            <xsl:call-template name="layout.metanav" />
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4">
-            <xsl:call-template name="powered_by"/>
+      <div class="hagen-footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-3">
+              <h4>Über uns</h4>
+              <ul class="internal_links">
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='service']" mode="navigation" />
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h4>Rechtliches</h4>
+              <ul class="internal_links">
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='privacy']" mode="navigation" />
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='accessibility']" mode="navigation" />
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='impressum']" mode="navigation" />
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h4>Kontakt</h4>
+              <ul class="internal_links">
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='contact']" mode="navigation" />
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h4>Technisches</h4>
+              <ul class="internal_links">
+                <xsl:apply-templates select="$navigation.tree/item[@menu='footer']/item[@id='hosting']" mode="navigation" />
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-  </xsl:template>
+      <div class="hagen-footer-logo">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="https://www.fernuni-hagen.de/">
+                <img
+                  id="fuhagenlogo"
+                  alt="FU Hagen"
+                  class="img-responsive center-block"
+                  title="FU Hagen- Logo"
+                  src="{$WebApplicationBaseURL}images/FeULogo.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <xsl:template name="powered_by">
-    <!-- xsl:variable name="mcr_version" select="concat('MyCoRe ', mcrver:getCompleteVersion())" / -->
-    <div id="powered_by">
-      <a href="https://www.fernuni-hagen.de/">
-        <img class="img-fluid" src="{$WebApplicationBaseURL}images/FeULogo.svg" title="FU-Hagen-Logo" alt="FU-Hagen-Logo" />
-      </a>
-    </div>
+      <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+      <div id="powered_by">
+        <a href="http://www.mycore.de">
+          <img src="{$WebApplicationBaseURL}images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+        </a>
+      </div>
+
+    </footer>
   </xsl:template>
 
 </xsl:stylesheet>

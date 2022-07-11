@@ -80,8 +80,8 @@
       <label xml:lang="en">FAQ</label>
     </item -->
     <item ref="contact.xml" id="contact">
-      <label xml:lang="de">Kontakt</label>
-      <label xml:lang="en">Contact</label>
+      <label xml:lang="de">Ansprechpersonen</label>
+      <label xml:lang="en">Contact persons</label>
     </item>
     <item ref="imprint.xml" id="impressum">
       <label xml:lang="de">Impressum</label>

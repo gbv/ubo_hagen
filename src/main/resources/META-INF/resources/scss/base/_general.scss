@@ -47,8 +47,8 @@
     z-index: 200;
     color: #ff8300;;
     font-size: 32px;
-    font-weight: bold;
-  } 
+    font-weight: 500;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
