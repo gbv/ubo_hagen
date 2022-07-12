@@ -144,7 +144,7 @@
   <xsl:template name="layout.navigation">
     <div id="navigationWrapper">
       <div class="container">
-        <nav class="navbar navbar-expand-lg p-0" role="navigation" id="hauptnavigation">
+        <nav class="navbar navbar-expand-xl p-0" role="navigation" id="hauptnavigation">
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
               <i class="fas fa-lg fa-bars"></i>
@@ -261,8 +261,8 @@
   <xsl:template name="layout.header">
     <header class="">
       <div class="container" id="">
-        <div class="row">
-          <div class="col header-brand">
+        <div class="row justify-content-end justify-content-md-start">
+          <div class="col-12 col-md header-brand order-2 order-md-1">
             <a title="Zur Startseite" class="imageLink" href="{$WebApplicationBaseURL}">
               <img
                 id="wordmark"
@@ -270,7 +270,7 @@
                 src="{$WebApplicationBaseURL}images/FeU_Hochschulbibliographie.svg" />
             </a>
           </div>
-          <nav class="col col-auto">
+          <nav class="col col-auto order-1 order-md-2">
             <div class="nav nav-pills">
               <xsl:call-template name="layout.login"/>
             </div>
@@ -281,7 +281,7 @@
   </xsl:template>
 
   <xsl:template name="layout.basket.info">
-    <div id="basketWrapper">
+    <div id="basketWrapper" class="text-right">
       <a href="{$ServletsBaseURL}MCRBasketServlet?action=show&amp;type=objects">
             <span class="fas fa-bookmark mr-1" aria-hidden="true" />
             <span class="mr-1"><xsl:value-of select="i18n:translate('basket')" />:</span>
@@ -317,7 +317,7 @@
     <div id="breadcrumbWrapper">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-lg order-2 order-lg-1">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -343,7 +343,7 @@
               </ol>
             </nav>
           </div>
-          <div class="col col-auto">
+          <div class="col-12 col-lg col-lg-auto order-1 order-lg-2">
             <xsl:call-template name="layout.basket.info"/>
           </div>
         </div>
