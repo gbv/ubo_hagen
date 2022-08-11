@@ -1,14 +1,5 @@
 [
     {
-        "add-field": {
-            "name": "ubo_documentID",
-            "type": "ubo_id",
-            "multiValued": false,
-            "indexed": true,
-            "stored": true
-        }
-    },
-    {
         "delete-copy-field": {
             "source": "conference",
             "dest": "all"
@@ -35,12 +26,107 @@
         }
     },
     {
-        "replace-field": {
+        "delete-copy-field": {
+            "source": "abstract",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-field": {
+            "name": "abstract"
+        }
+    },
+    {
+        "add-field": {
             "name": "abstract",
             "type": "ubo_text",
             "multiValued": true,
             "indexed": true,
             "stored": true 
+        }
+    },
+    {
+        "add-copy-field": {
+            "source": "abstract",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-copy-field": {
+            "source": "topic",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-field": {
+            "name": "topic"
+        }
+    },
+    {
+        "add-field": {
+            "name": "topic",
+            "type": "ubo_text",
+            "multiValued": true,
+            "indexed": true,
+            "stored": true 
+        }
+    },
+    {
+        "add-copy-field": {
+            "source": "topic",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-copy-field": {
+            "source": "note",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-field": {
+            "name": "note"
+        }
+    },
+    {
+        "add-field": {
+            "name": "note",
+            "type": "ubo_text",
+            "multiValued": true,
+            "indexed": true,
+            "stored": true 
+        }
+    },
+    {
+        "add-copy-field": {
+            "source": "note",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-copy-field": {
+            "source": "lang",
+            "dest": "all"
+        }
+    },
+    {
+        "delete-field": {
+            "name": "lang"
+        }
+    },
+    {
+        "add-field": {
+            "name": "lang",
+            "type": "ubo_id",
+            "multiValued": true,
+            "indexed": true,
+            "stored": true 
+        }
+    },
+    {
+        "add-copy-field": {
+            "source": "lang",
+            "dest": "all"
         }
     }
 ]
