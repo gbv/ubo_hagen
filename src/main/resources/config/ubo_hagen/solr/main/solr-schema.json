@@ -104,12 +104,6 @@
         }
     },
     {
-        "delete-copy-field": {
-            "source": "lang",
-            "dest": "all"
-        }
-    },
-    {
         "delete-field": {
             "name": "lang"
         }
@@ -121,12 +115,6 @@
             "multiValued": true,
             "indexed": true,
             "stored": true 
-        }
-    },
-    {
-        "add-copy-field": {
-            "source": "lang",
-            "dest": "all"
         }
     }
 ]
