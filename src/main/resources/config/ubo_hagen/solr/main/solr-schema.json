@@ -58,6 +58,12 @@
         }
     },
     {
+        "delete-copy-field": {
+            "source": "topic",
+            "dest": "facet_topic"
+        }
+    },
+    {
         "delete-field": {
             "name": "topic"
         }
@@ -75,6 +81,12 @@
         "add-copy-field": {
             "source": "topic",
             "dest": "all"
+        }
+    },
+    {
+        "add-copy-field": {
+            "source": "topic",
+            "dest": "facet_topic"
         }
     },
     {
