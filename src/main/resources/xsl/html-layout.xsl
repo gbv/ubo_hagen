@@ -335,9 +335,16 @@
                                      select="$CurrentItem/ancestor-or-self::item[@label|label][ancestor-or-self::*=$navigation.tree[@role='main']]" />
                 <xsl:for-each select="body/ul[@id='breadcrumb']/li">
                   <li class="breadcrumb-item">
-                    <a href="#">
-                      <xsl:copy-of select="node()" />
-                    </a>
+                    <xsl:choose>
+                      <xsl:when test="@data-href">
+                        <a href="{@data-href}">
+                          <xsl:copy-of select="node()"/>
+                        </a>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:copy-of select="node()"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
                   </li>
                 </xsl:for-each>
               </ol>
@@ -390,7 +397,7 @@
     </div>
     <div class="nav-item mr-2">
       <xsl:choose>
-        <xsl:when test="/webpage/@id='login'" />
+        <xsl:when test="/html/@id='login'" />
         <xsl:when test="$CurrentUser = $MCR.Users.Guestuser.UserName">
           <form action="{$WebApplicationBaseURL}{$UBO.Login.Path}" method="get">
             <input type="hidden" name="url" value="{$RequestURL}" />
@@ -433,7 +440,7 @@
     <div class="card my-3">
       <div class="card-body py-2">
         <h3 id="seitentitel">
-          <xsl:value-of select="head/title" disable-output-escaping="yes" />
+          <xsl:copy-of select="head/title/node()" />
         </h3>
       </div>
     </div>
