@@ -31,7 +31,9 @@
     </div>
   </article>
 
-  <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+year:%5B1980+TO+*%5D&amp;rows=0&amp;facet.field=year" />
+  <xinclude uri="xslStyle:statistics-oa:solr:q=status:confirmed+AND+year:[1980+TO+*]&amp;rows=0&amp;json.facet={year:{type:terms,field:year,sort:{index:asc},facet:{oa:{type:terms,field:oa,sort:{index:asc}}}}}" />
+
+  <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+AND+year:%5B1980+TO+*%5D&amp;rows=0&amp;facet.field=year" />
   <xinclude uri="xslStyle:statistics:solr:q=status:confirmed&amp;rows=0&amp;facet.field=subject" />
   <xinclude uri="xslStyle:statistics:solr:q=status:confirmed&amp;rows=0&amp;facet.field=genre" />
   <xinclude uri="xslStyle:statistics:solr:q=status:confirmed&amp;rows=0&amp;facet.field=oa" />
@@ -39,13 +41,13 @@
   <article class="card mb-3" xml:lang="de">
     <div class="card-body">
       <h3>Am häufigsten verzeichnete Personen:</h3>
-    <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+year:%5B2012+TO+*%5D&amp;rows=0&amp;facet.field=nid_connection&amp;facet.limit=50" />
+      <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+AND+year:%5B2012+TO+*%5D&amp;rows=0&amp;facet.field=nid_connection&amp;facet.limit=50" />
     </div>
   </article>
   <article class="card mb-3" xml:lang="en">
     <div class="card-body">
       <h3>Most frequently listed staff:</h3>
-    <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+year:%5B2012+TO+*%5D&amp;rows=0&amp;facet.field=nid_connection&amp;facet.limit=50" />
+    <xinclude uri="xslStyle:statistics:solr:q=status:confirmed+AND+year:%5B2012+TO+*%5D&amp;rows=0&amp;facet.field=nid_connection&amp;facet.limit=50" />
     </div>
   </article>
 
