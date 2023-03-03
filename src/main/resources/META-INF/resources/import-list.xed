@@ -87,7 +87,7 @@
             <xed:bind xpath="source">
               <div class="form-group form-inline">
                 <textarea id="{xed:generate-id()}" class="{$xed-validation-marker} form-control col" type="text"
-                          placeholder="BibTeX Quellcode bzw. ORCID bzw. CSV-Literaturliste hierhin kopieren" rows="10"/>
+                          placeholder="BibTeX Quellcode hierhin kopieren" rows="10"/>
               </div>
               <xed:validate required="true" display="global" />
             </xed:bind>
