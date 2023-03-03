@@ -7,8 +7,7 @@
     <div class="card-body">
       <p>
         Über dieses Formular können Sie eine Literaturliste im
-        <a href="http://artis.imag.fr/~Xavier.Decoret/resources/xdkbibtex/bibtex_summary.html">BibTeX Format</a>,
-        alle Publikationen einer gegebenen ORCID oder eine CSV-Datei importieren.
+        <a href="http://artis.imag.fr/~Xavier.Decoret/resources/xdkbibtex/bibtex_summary.html">BibTeX Format</a> importieren.
       </p>
       <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form">
         <xed:bind xpath="/import">
