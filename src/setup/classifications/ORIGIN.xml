@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="ORIGIN">
-  <label xml:lang="x-place" text="FU Hagen | Hagen | Feithstraße 152, 58097 Hagen" />
   <label xml:lang="de" text="FernUniversität in Hagen" />
+  <label xml:lang="x-place" text="FU Hagen | Hagen | Feithstraße 152, 58097 Hagen" />
   <categories>
     <category ID="10000013">
       <label xml:lang="de" text="Rektorin (wissenschaftliche Bereiche)" />
+      <label xml:lang="x-from" text="2010-01-01" />
       <category ID="10001569">
         <label xml:lang="de" text="Projekt Campusmanagement" />
       </category>
@@ -1209,6 +1210,12 @@
         <label xml:lang="de" text="UB - Fachreferate" />
       </category>
     </category>
+    <category ID="10002061">
+      <label xml:lang="de" text="ZLI - Zentrum für Lernen und Innovation" />
+    </category>
+    <category ID="10002175">
+      <label xml:lang="de" text="ZDI - Zentrum für Digitalisierung und IT" />
+    </category>
     <category ID="10000413">
       <label xml:lang="de" text="Zentrum für Medien und IT" />
       <category ID="10000853">
@@ -1278,9 +1285,9 @@
         <label xml:lang="de" text="ZMI - Rechenzentrumsdienste" />
       </category>
     </category>
-     <category ID="10001570">
-        <label xml:lang="de" text="Forschungsschwerpunkt D²L²" />
-      </category>
+    <category ID="10001570">
+      <label xml:lang="de" text="CATALPA" />
+    </category>
     <category ID="10001567">
       <label xml:lang="de" text="Koordst. Energie, Umwelt, Nachhaltigkeit" />
     </category>
