@@ -1,26 +1,26 @@
-Quelle;Priorit‰t;Enth‰lt Publikationstyp aus Quelle;Enth‰lt Dokumenttyp aus Quelle;Ziel-Publikationstyp;Ziel-Dokumenttyp;Peer reviewed;
+ÔªøQuelle;Priorit√§t;Enth√§lt Publikationstyp aus Quelle;Enth√§lt Dokumenttyp aus Quelle;Ziel-Publikationstyp;Ziel-Dokumenttyp;Peer reviewed;Anmerkung
 default;1;abstract;proceedings;Meeting Abstract;;aus Quelle;
 default;2;abstract;journal;Meeting Abstract;;aus Quelle;
-default;3;article;newspaper;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
+default;3;article;newspaper;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
 default;4;article;journal;Journalartikel;Wissenschaftlicher Artikel;aus Quelle;
-default;5;article;blog;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
-default;6;article;special_issue;Journalartikel;Wissenschaftlicher Artikel;aus Quelle;
-default;7;article;;Preprint;Wissenschaftlicher Artikel;aus Quelle;
+default;5;article;blog;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
+default;6;article;special_issue;Journalartikel;Wissenschaftlicher Artikel;aus Quelle;in Erfassung erg√§nzen! Fehlt aktuell
+default;7;article;;Preprint;Wissenschaftlicher Artikel;aus Quelle;Eigener Publikationstyp in Bibliographie
 default;8;blog;;Integrierende Ressource;;aus Quelle;
 default;9;book;;Monographie;;aus Quelle;
 default;10;chapter;proceedings;Konferenzpaper;;aus Quelle;
 default;11;chapter;festschrift;Sammelbandbeitrag;Wissenschaftlicher Artikel;aus Quelle;
 default;12;chapter;collection;Sammelbandbeitrag;Wissenschaftlicher Artikel;aus Quelle;
 default;13;entry;lexicon;Sammelbandbeitrag;Wissenschaftlicher Artikel;aus Quelle;
-default;14;collection;series;Sammelband;;aus Quelle;
+default;14;collection;series;Sammelband;;aus Quelle;Erg√§nzen, fehlt aktuell
 default;15;collection;;Sammelband;;aus Quelle;
 default;16;dissertation;;Monographie;;aus Quelle;
 default;17;festschrift;;Sammelband;;aus Quelle;
 default;18;habilitation;;Monographie;;aus Quelle;
-default;19;interview;newspaper;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
-default;20;interview;journal;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
-default;21;interview;blog;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
-default;22;interview;;Beitr‰ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
+default;19;interview;newspaper;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
+default;20;interview;journal;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
+default;21;interview;blog;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;in Erfassung erg√§nzen! Fehlt aktuell
+default;22;interview;;Beitr√§ge/Interviews in nicht-wissenschaftlichen Medien;;aus Quelle;
 default;23;journal;;nicht importieren;;aus Quelle;
 default;24;lexicon;;Sammelband;;aus Quelle;
 default;25;newspaper;;nicht importieren;;aus Quelle;
@@ -35,7 +35,7 @@ default;33;preface;collection;Sammelbandbeitrag;Editorial;aus Quelle;
 default;34;proceedings;;Konferenzband;;aus Quelle;
 default;35;research_data;;Forschungsdaten;;aus Quelle;
 default;36;research_paper;;Arbeitspapier/Forschungsbericht;;aus Quelle;
-default;37;report;series;Arbeitspapier/Forschungsbericht;;aus Quelle;
+default;37;report;series;Arbeitspapier/Forschungsbericht;;aus Quelle;in Erfassung erg√§nzen! Fehlt aktuell
 default;38;report;;Arbeitspapier/Forschungsbericht;;aus Quelle;
 default;39;review;journal;Journalartikel;Rezension;aus Quelle;
 default;40;review;collection;Sammelbandbeitrag;Rezension;aus Quelle;
