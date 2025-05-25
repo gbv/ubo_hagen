@@ -2,9 +2,8 @@
 
 <webpage lastModified="$Date: 2016-02-01 15:05:21 +0100 (Mo, 01 Feb 2016) $" id="dozbib.edit.publication">
   <title xml:lang="de">Publikation bearbeiten</title>
- 
-  <script type="text/javascript" src="js/editor.validation.failed.tooltip.js"></script>
-     
+  <title xml:lang="en">Edit publication</title>
+
   <article class="card">
     <div class="card-body">
       <xed:form xmlns:xed="http://www.mycore.de/xeditor"
@@ -52,7 +51,7 @@
           </fieldset>
           <xed:bind xpath="metadata/def.modsContainer[@class='MCRMetaXML']/modsContainer/mods:mods">
             <fieldset>
-              <legend>Publikation:</legend>
+              <legend><xed:output i18n="ubo.publication"/>:</legend>
               <xed:include uri="webapp:import-editor.xed" ref="genre" />
               <xed:include uri="webapp:import-editor.xed" ref="oa" />
               <xed:include uri="webapp:import-editor.xed" ref="title.complex" />
@@ -72,7 +71,7 @@
           </fieldset>
           <xed:include uri="webapp:import-editor.xed" ref="relations" />
           <fieldset>
-            <legend>erschienen in:</legend>
+            <legend><xed:output i18n="ubo.select.host"/>:</legend>
             <xed:bind xpath="mods:relatedItem[@type='host']">
               <xed:choose>
                 <xed:when test="string-length(@xlink:href) &gt; 0">
@@ -117,6 +116,7 @@
         <xed:include uri="webapp:import-editor.xed" ref="fix.structure.parent" />
         <xed:include uri="webapp:import-editor.xed" ref="cleanup" />
         <xed:include uri="webapp:import-editor.xed" ref="cancel.submit" />
+        <xed:include uri="webapp:import-editor.xed" ref="javascript" />
       </xed:template>
     </xed:form>
    </div>

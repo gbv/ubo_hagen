@@ -36,7 +36,7 @@
   <xinclude uri="xslStyle:statistics:solr:q=status%3Aconfirmed&amp;rows=0&amp;facet.field=subject" />
   <xinclude uri="xslStyle:statistics:solr:q=status%3Aconfirmed&amp;rows=0&amp;facet.field=genre" />
 
-  <xinclude uri="xslStyle:statistics-oa:solr:q=status%3Aconfirmed+AND+year%3A[2018+TO+*]&amp;rows=0&amp;json.facet={year:{type:terms,field:year,sort:{index:asc},facet:{oa:{type:terms,field:oa,sort:{index:asc}}}}}" />
+  <xinclude uri="xslStyle:statistics-oa:solr:q=status%3Aconfirmed+AND+year%3A[2021+TO+*]&amp;rows=0&amp;json.facet=%7Byear%3A%7Btype%3Aterms,field%3Ayear,sort%3A%7Bindex%3Aasc%7D,facet%3A%7Boa%3A%7Btype%3Aterms,field%3Aoa,sort%3A%7Bindex%3Aasc%7D%7D%7D%7D%7D" />
 
 
   <article class="card mb-3" xml:lang="de">
