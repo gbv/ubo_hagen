@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -15,9 +15,25 @@
 
 <xsl:template match="*|@*" /> <!-- ignore all other unsupported elements and attributes -->
 
+<xsl:template match="mycoreobject">
+  <xsl:copy>
+    <xsl:copy-of select="@*"/>
+    <xsl:copy-of select="structure"/>
+    <xsl:apply-templates select="metadata" />
+    <xsl:copy-of select="service"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="mycoreobject/metadata|def.modsContainer|modsContainer">
+  <xsl:copy>
+    <xsl:copy-of select="@*"/>
+    <xsl:apply-templates />
+  </xsl:copy>
+</xsl:template>
+
 <xsl:template match="mods:mods">
   <xsl:copy>
-    <xsl:apply-templates select="mods:genre|mods:titleInfo|mods:name|mods:classification|mods:originInfo|mods:dateIssued|mods:physicalDescription|mods:identifier|mods:relatedItem|mods:note|mods:extension|mods:location|mods:subject|mods:abstract|mods:language" />
+    <xsl:apply-templates select="mods:genre|mods:titleInfo|mods:typeOfResource|mods:name|mods:classification|mods:originInfo|mods:dateIssued|mods:physicalDescription|mods:identifier|mods:relatedItem|mods:note|mods:extension|mods:location|mods:subject|mods:abstract|mods:language" />
   </xsl:copy>
 </xsl:template>
 
@@ -25,7 +41,7 @@
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
-<xsl:template match="mods:genre[@type='intern'][1]|mods:genre/@type">
+<xsl:template match="mods:genre[@type='intern'][1]|mods:genre/@type|mods:genre/@authorityURI|mods:genre/@valueURI">
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
@@ -75,7 +91,7 @@
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
-<xsl:template match="mods:identifier[contains('|isbn|issn|doi|urn|pubmed|ieee|arxiv|hdl|zdb|isi|evaluna|ppn|hbz|mms|scopus|duepublico|duepublico2|',concat('|',@type,'|'))]|mods:identifier/@type">
+<xsl:template match="mods:identifier[contains('|isbn|issn|doi|urn|pubmed|ieee|arxiv|hdl|zdb|isi|evaluna|hbz|mms|scopus|uri|',concat('|',@type,'|'))]|mods:identifier/@type">
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
@@ -86,8 +102,14 @@
   </xsl:copy>
 </xsl:template>
 
-<xsl:template match="mods:note">
+<xsl:template match="mods:typeOfResource">
   <xsl:call-template name="copy-and-apply" />
+</xsl:template>
+
+<xsl:template match="mods:note">
+  <xsl:if test="not(@type) or contains('intern other', @type)">
+  <xsl:call-template name="copy-and-apply" />
+  </xsl:if>
 </xsl:template>
 
 <xsl:template match="mods:extension[tag|dedup][1]|mods:extension/tag|mods:extension/dedup">
@@ -103,7 +125,7 @@
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
-<xsl:template match="mods:language|mods:languageTerm[@type='code'][@authority='rfc4646']|mods:languageTerm/@type|mods:languageTerm/@authority">
+<xsl:template match="mods:language|mods:languageTerm[@type='code'][@authority='rfc5646']|mods:languageTerm/@type|mods:languageTerm/@authority">
   <xsl:call-template name="copy-and-apply" />
 </xsl:template>
 
