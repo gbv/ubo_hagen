@@ -32,6 +32,10 @@
     <xed:include uri="webapp:import-editor.xed" ref="url" />
   </xed:template>
 
+  <xed:template id="genre.habilitation">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.dissertation" /> 
+  </xed:template>
+
   <xed:template id="genre.article">
     <xed:include uri="webapp:import-editor.xed" ref="title" />
     <xed:include uri="webapp:import-editor.xed" ref="author" />
@@ -43,11 +47,15 @@
   <xed:template id="genre.abstract">
     <xed:include uri="webapp:import-editor.xed" ref="title" />
     <xed:include uri="webapp:import-editor.xed" ref="author" />
-    <xed:if test="$host_intern='journal'">      
+    <xed:if test="not($host_intern='proceedings')">      
       <xed:include uri="webapp:import-editor.xed" ref="year" />
     </xed:if>
     <xed:include uri="webapp:import-editor.xed" ref="doi.urn.duepublico" />
     <xed:include uri="webapp:import-editor.xed" ref="url" />
+  </xed:template>
+  
+  <xed:template id="genre.poster_abstract">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.abstract" />  
   </xed:template>
   
   <xed:template id="genre.chapter">
@@ -77,6 +85,26 @@
     <xed:include uri="webapp:import-editor.xed" ref="url" />    
   </xed:template>
 
+  <xed:template id="genre.review_article">
+    <xed:include uri="webapp:import-editor.xed" ref="title" />
+    <xed:include uri="webapp:import-editor.xed" ref="author" />          
+    <xed:include uri="webapp:import-editor.xed" ref="year" />    
+    <xed:include uri="webapp:import-editor.xed" ref="doi.urn.duepublico" />
+    <xed:include uri="webapp:import-editor.xed" ref="url" />    
+  </xed:template>
+  
+  <xed:template id="genre.erratum">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.article" />  
+  </xed:template>
+  
+  <xed:template id="genre.comment">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.article" />  
+  </xed:template>
+  
+  <xed:template id="genre.preprint">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.article" />  
+  </xed:template>
+      
   <xed:template id="genre.entry">
     <xed:include uri="webapp:import-editor.xed" ref="title" />
     <xed:include uri="webapp:import-editor.xed" ref="author" />
@@ -178,6 +206,10 @@
     <xed:include uri="webapp:import-editor.xed" ref="url" />
   </xed:template>
   
+  <xed:template id="genre.special_issue">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.collection" /> 
+  </xed:template>
+  
   <xed:template id="genre.workingpaper">
    <xed:include uri="webapp:import-genres.xed" ref="genre.book" /> 
   </xed:template>
@@ -186,12 +218,37 @@
    <xed:include uri="webapp:import-genres.xed" ref="genre.book" /> 
   </xed:template>
 
+  <xed:template id="genre.report">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.book" /> 
+  </xed:template>
+  
+  <xed:template id="genre.oer">
+    <xed:include uri="webapp:import-editor.xed" ref="title" />
+    <xed:include uri="webapp:import-editor.xed" ref="book.contributors" />
+    <xed:include uri="webapp:import-editor.xed" ref="place" />
+    <xed:include uri="webapp:import-editor.xed" ref="year" />
+    <xed:include uri="webapp:import-editor.xed" ref="publisher" />    
+    <xed:include uri="webapp:import-editor.xed" ref="series" />
+    <xed:include uri="webapp:import-editor.xed" ref="size" />
+    <xed:include uri="webapp:import-editor.xed" ref="comment" />
+    <xed:include uri="webapp:import-editor.xed" ref="doi.urn.duepublico" />
+    <xed:include uri="webapp:import-editor.xed" ref="url" />
+  </xed:template>
+  
+  <xed:template id="genre.research_data">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.oer" />  
+  </xed:template>
+
   <xed:template id="genre.journal">
     <xed:include uri="webapp:import-editor.xed" ref="title" />
     <xed:include uri="webapp:import-editor.xed" ref="editor" />
     <xed:include uri="webapp:import-editor.xed" ref="issn" />
     <xed:include uri="webapp:import-editor.xed" ref="doi.urn.duepublico" />
     <xed:include uri="webapp:import-editor.xed" ref="url" />
+  </xed:template>
+
+  <xed:template id="genre.newspaper">
+    <xed:include uri="webapp:import-genres.xed" ref="genre.journal" />  
   </xed:template>
 
   <xed:template id="genre.series">
@@ -222,6 +279,10 @@
     <xed:include uri="webapp:import-editor.xed" ref="volume" />
     <xed:include uri="webapp:import-editor.xed" ref="issue" />
     <xed:include uri="webapp:import-editor.xed" ref="pages" />
+  </xed:template>
+  
+  <xed:template id="host.newspaper">  
+    <xed:include uri="webapp:import-genres.xed" ref="host.journal" />    
   </xed:template>
   
   <xed:template id="host.blog">
