@@ -80,9 +80,9 @@
       </xed:form>
     </div>
   </article>
+  <xinclude uri="xslStyle:response-newest:solr:q=status:confirmed&amp;rows=4&amp;sort=created+desc,year+desc&amp;facet=false&amp;fl=id,year" />
 
-  <xinclude uri="xslStyle:response-newest:solr:q=status%3Aconfirmed+AND+year%3A%5B2022+TO+2023%5D&amp;rows=4&amp;sort=created+desc,year+desc&amp;facet=false&amp;fl=id,year" />
-  
+
   <aside id="sidebar">
     <xinclude uri="xslStyle:response-sidebar-mini:solr:q=status%3Aconfirmed&amp;rows=0" />
     <xinclude uri="xslStyle:response-sidebar-admin:solr:q=*%3A*&amp;rows=0&amp;facet=true&amp;facet.field=status&amp;facet.mincount=0&amp;facet.range=created&amp;facet.range=modified&amp;facet.range.start=NOW/DAY-30DAY&amp;facet.range.end=NOW&amp;facet.range.gap=%2B1DAY" />
