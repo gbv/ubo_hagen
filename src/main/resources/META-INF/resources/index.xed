@@ -81,7 +81,7 @@
     </div>
   </article>
 
-  <xinclude uri="xslStyle:response-newest:solr:q=status%3Aconfirmed+AND+year%3A%5B2022+TO+2023%5D&amp;rows=4&amp;sort=created+desc,year+desc&amp;facet=false&amp;fl=id,year" />
+  <xinclude uri="xslStyle:response-newest:solr:q=status%3Aconfirmed+AND+year%3A%5B2025+TO+2026%5D&amp;rows=4&amp;sort=created+desc,year+desc&amp;facet=false&amp;fl=id,year" />
   
   <aside id="sidebar">
     <xinclude uri="xslStyle:response-sidebar-mini:solr:q=status%3Aconfirmed&amp;rows=0" />
