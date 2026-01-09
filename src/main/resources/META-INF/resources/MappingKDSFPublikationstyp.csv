@@ -34,7 +34,7 @@ default;32;preface;festschrift;Sammelbandbeitrag;Editorial;aus Quelle;
 default;33;preface;collection;Sammelbandbeitrag;Editorial;aus Quelle;
 default;34;proceedings;;Konferenzband;;aus Quelle;
 default;35;research_data;;Forschungsdaten;;aus Quelle;
-default;36;research_paper;;Arbeitspapier/Forschungsbericht;;aus Quelle;
+default;36;researchpaper;;Arbeitspapier/Forschungsbericht;;aus Quelle;
 default;37;report;series;Arbeitspapier/Forschungsbericht;;aus Quelle;in Erfassung ergänzen! Fehlt aktuell
 default;38;report;;Arbeitspapier/Forschungsbericht;;aus Quelle;
 default;39;review;journal;Journalartikel;Rezension;aus Quelle;
@@ -43,4 +43,4 @@ default;41;review_article;journal;Journalartikel;Review;aus Quelle;
 default;42;series;;Sonstiger Publikationstyp;;aus Quelle;
 default;43;special_issue;;Sonderheft einer Zeitschrift;;aus Quelle;
 default;44;speech;;Sonstiger Publikationstyp;;aus Quelle;
-default;45;working_paper;;Arbeitspapier/Forschungsbericht;;aus Quelle;
+default;45;workingpaper;;Arbeitspapier/Forschungsbericht;;aus Quelle;
