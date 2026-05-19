@@ -34,7 +34,7 @@
   <xinclude uri="xslStyle:charts/bar-chart?facet=subject:solr:requestHandler:select:q=status%3Aconfirmed&amp;rows=0&amp;facet.field=subject"/>
   <xinclude uri="xslStyle:charts/pie-chart?classification=ubogenre&amp;facet=genre:solr:requestHandler:select:q=status%3Aconfirmed&amp;rows=0&amp;facet.field=genre"/>
 
-  <xinclude uri="xslStyle:charts/bar-stacked-oa-chart:solr:requestHandler:select:q=status%3Aconfirmed+AND+year%3A[2021+TO+*]&amp;rows=0&amp;json.facet=%7Byear%3A%7Btype%3Aterms,field%3Ayear,sort%3A%7Bindex%3Aasc%7D,facet%3A%7Boa%3A%7Btype%3Aterms,field%3Aoa,sort%3A%7Bindex%3Aasc%7D%7D%7D%7D%7D"/>
+  <xinclude uri="xslStyle:charts/bar-stacked-oa-chart:solr:requestHandler:select:q=status%3Aconfirmed+AND+year%3A[2021+TO+*]&amp;rows=0&amp;json.facet=%7Byear%3A%7Btype%3Aterms,field%3Ayear,sort%3A%7Bindex%3Aasc%7D,facet%3A%7Boa%3A%7Btype%3Aterms,field%3Aoa_exact,sort%3A%7Bindex%3Aasc%7D%7D%7D%7D%7D"/>
 
   <xinclude uri="xslStyle:charts/bar-chart?facet=nid_connection&amp;labelsFromPivot=true:solr:requestHandler:select:q=status%3Aconfirmed+AND+year%3A%5B2012+TO+*%5D&amp;rows=0&amp;facet.field=nid_connection&amp;facet.limit=50"/>
 
