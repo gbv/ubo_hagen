@@ -27,14 +27,14 @@
       <label xml:lang="de">Publikationsliste</label>
       <label xml:lang="en">Publication list</label>
     </item>
-    <item ref="newPublication.xed" >
+    <item ref="newPublication.xed">
       <label xml:lang="de">Publikation melden</label>
       <label xml:lang="en">Registering a publication</label>
       <item id="dozbib.new.publication" ref="newPublication.xed">
         <label xml:lang="de">Publikation melden</label>
         <label xml:lang="en">Registering a publication</label>
       </item>
-      <item id="dozbib.import.list" ref="import-list.xed">
+      <item id="dozbib.import.list" ref="import-list.xed" role="admin">
         <label xml:lang="de">Literaturliste importieren</label>
         <label xml:lang="en">Import publication list</label>
       </item>
