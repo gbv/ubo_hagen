@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="ORIGIN">
+  <label xml:lang="de" text="FernUniversität in Hagen" />
+  <label xml:lang="x-place" text="eigene Hochschule"/>
+  <label xml:lang="x-uri"
+    text="https://bibliographie.fernuni-hagen.de/api/v2/classifications/ORIGIN"/>
+  <categories>
+    <category ID="10000020">
+      <label xml:lang="de" text="Kanzler"/>
+      <label xml:lang="x-from" text="2025-10-01"/>
+      <label xml:lang="x-to" text="2100-12-31"/>
+      <category ID="10001988">
+        <label xml:lang="de" text="Campusstandorte"/>
+        <label xml:lang="x-from" text="2021-02-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000021">
+        <label xml:lang="de" text="Dez. 1 Hochschulmonitoring und Qualitätssicherung"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000022">
+        <label xml:lang="de" text="Dez. 2 Studierendenservice"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000023">
+        <label xml:lang="de" text="Dez. 3 Personal"/>
+        <label xml:lang="x-from" text="2011-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000024">
+        <label xml:lang="de" text="Dez. 4 Haushalt / Finanzen"/>
+        <label xml:lang="x-from" text="2011-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000025">
+        <label xml:lang="de" text="Dez. 5 Technische Medienadministration"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10002376">
+        <label xml:lang="de" text="Dez. 6 Gebäudemanagement und Nachhaltigkeit"/>
+        <label xml:lang="x-from" text="2022-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="1000002001">
+        <label xml:lang="de" text="Weitere Bereiche Kanzler*in"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+    </category>
+    <category ID="10002851">
+      <label xml:lang="de" text="Kommissarische Kanzlerin"/>
+      <label xml:lang="x-from" text="2024-11-01"/>
+      <label xml:lang="x-to" text="2100-12-31"/>
+    </category>
+    <category ID="10000013">
+      <label xml:lang="de" text="Rektor/in"/>
+      <label xml:lang="x-from" text="2010-01-01"/>
+      <label xml:lang="x-to" text="2100-12-31"/>
+      <category ID="10001976">
+        <label xml:lang="de"
+          text="CATALPA - Center of Advanced Technology for Assisted Learning and Predictive Analytics"/>
+        <label xml:lang="x-from" text="2021-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000016">
+        <label xml:lang="de" text="Fakultät für Kultur- und Sozialwissenschaften"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+        <category ID="10000114">
+          <label xml:lang="de" text="Fak. KSW - Emeriti/Ruhestandsprof (ZFE)"/>
+          <label xml:lang="x-from" text="2011-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10000049">
+          <label xml:lang="de" text="Fak. KSW - In-Institute"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000265">
+            <label xml:lang="de" text="Institut für Frieden und Demokratie"/>
+            <label xml:lang="x-from" text="2010-01-01" />
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10000266">
+            <label xml:lang="de"
+              text="Institut für Geschichte und Biografie 'Deutsches Gedächtnis'"/>
+            <label xml:lang="x-from" text="2010-01-01" />
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+        </category>
+        <category ID="10002201">
+          <label xml:lang="de" text="Fak. KSW - Interdisziplinäre Arbeitsber."/>
+          <label xml:lang="x-from" text="2021-07-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10002202">
+            <label xml:lang="de" text="JP Digitale Transformation in Kultur und Gesellschaft"/>
+            <label xml:lang="x-from" text="2021-07-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10002777">
+            <label xml:lang="de" text="LG Circular Society"/>
+            <label xml:lang="x-from" text="2025-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10001825">
+            <label xml:lang="de" text="LG Umweltwissenschaften"/>
+            <label xml:lang="x-from" text="2021-07-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+        </category>
+        <category ID="10000041">
+          <label xml:lang="de" text="Fak. KSW - Lehrgebiete"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000046">
+            <label xml:lang="de" text="Fak. KSW - Historische LE"/>
+            <label xml:lang="x-from" text="2010-01-01" />
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000303">
+              <label xml:lang="de" text="LG Geschichte der europäischen Moderne"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000305">
+              <label xml:lang="de" text="LG Geschichte Europas in der Welt"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000304">
+              <label xml:lang="de" text="LG Geschichte und Gegenwart Alteuropas"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002014">
+              <label xml:lang="de" text="LG Public History"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000042">
+            <label xml:lang="de" text="Fak. KSW - LE Bildungsw./Medienforschung"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000271">
+              <label xml:lang="de" text="LG Allgemeine Bildungswissenschaft"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000272">
+              <label xml:lang="de" text="LG Bildung und Differenz"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000270">
+              <label xml:lang="de" text="LG Bildungstheorie und Medienpädagogik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002017">
+              <label xml:lang="de"
+                text="LG Bildungswissenschaft unter besonderer Berücksichtigung des Systems der Weiterbildung und seine*r Adressat*innen"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001037">
+              <label xml:lang="de"
+                text="LG Empirische Bildungsforschung - Methoden mit dem Schwerpunkt Evaluation und Qualität"/>
+              <label xml:lang="x-from" text="2014-02-17"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001535">
+              <label xml:lang="de" text="LG Erwachsenen- und Weiterbildung"/>
+              <label xml:lang="x-from" text="2018-02-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000269">
+              <label xml:lang="de" text="LG Lebenslanges Lernen"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000274">
+              <label xml:lang="de" text="LG Mediendidaktik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000048">
+            <label xml:lang="de" text="Fak. KSW - LE Deutsche Literatur/Medienw"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10001300">
+              <label xml:lang="de"
+                text="LG Literatur- und medienwissenschaftliche Genderforschung"/>
+              <label xml:lang="x-from" text="2016-05-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000312">
+              <label xml:lang="de"
+                text="LG Neuere Deutsche Literaturwissenschaft und Geschichte der Medienkulturen"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000311">
+              <label xml:lang="de"
+                text="LG Neuere deutsche Literaturwissenschaft und Medientheorie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000313">
+              <label xml:lang="de"
+                text="LG Neuere Deutsche Literaturwissenschaft und Medienästhetik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000047">
+            <label xml:lang="de" text="Fak. KSW - LE Philosophie"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000306">
+              <label xml:lang="de" text="LG Philosophie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001563">
+              <label xml:lang="de" text="LG Philosophie der Medizin und der Technik"/>
+              <label xml:lang="x-from" text="2018-06-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000309">
+              <label xml:lang="de" text="LG Praktische Philosophie: Ethik, Recht, Ökonomie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000310">
+              <label xml:lang="de"
+                text="LG Praktische Philosophie: Technik, Geschichte, Gesellschaft"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000045">
+            <label xml:lang="de" text="Fak. KSW - LE Politikwissenschaft"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000299">
+              <label xml:lang="de" text="LG Internationale Politik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000301">
+              <label xml:lang="de" text="LG Politik und Verwaltung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000300">
+              <label xml:lang="de" text="LG Politikfeldanalyse und Umweltpolitik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000298">
+              <label xml:lang="de" text="LG Staat und Regieren"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000302">
+              <label xml:lang="de" text="LG Vergleichende Politikwissenschaft"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000043">
+            <label xml:lang="de" text="Fak. KSW - LE Soziologie"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10001029">
+              <label xml:lang="de" text="Ernsting-Stiftungsprofessur für Mikrosoziologie"/>
+              <label xml:lang="x-from" text="2013-10-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000278">
+              <label xml:lang="de" text="LG Allgemeine Soziologie und soziologische Theorie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000279">
+              <label xml:lang="de" text="LG Organisationssoziologie und qualitative Methoden"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000280">
+              <label xml:lang="de" text="LG Soziologische Gegenwartsdiagnosen"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+        </category>
+        <category ID="10001380">
+          <label xml:lang="de" text="Fak. KSW - Zentr. wiss. Mitarb. (ZFE)"/>
+          <label xml:lang="x-from" text="2017-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10000039">
+          <label xml:lang="de" text="Fak. KSW - Zentralbereiche (ZFE)"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+      </category>
+      <category ID="10000017">
+        <label xml:lang="de" text="Fakultät für Mathematik und Informatik"/>
+        <label xml:lang="x-from" text="2011-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+        <category ID="10000115">
+          <label xml:lang="de" text="Fak. MI - Emeriti/Ruhestandsprof (ZFE)"/>
+          <label xml:lang="x-from" text="2011-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10000060">
+          <label xml:lang="de" text="Fak. MI - Lehrgebiete"/>
+          <label xml:lang="x-from" text="2011-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000063">
+            <label xml:lang="de" text="Fak. MI - Lehreinheit Informatik"/>
+            <label xml:lang="x-from" text="2011-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000186">
+              <label xml:lang="de" text="Fak. MI - Campussta. m. Mentoren LE Inf."/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002600">
+              <label xml:lang="de"
+                text="LG Bildungstechnologie für die digitale Transformation (FI ABD)"/>
+              <label xml:lang="x-from" text="2023-04-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002682">
+              <label xml:lang="de" text="LG Computational Linguistics (CATALPA)"/>
+              <label xml:lang="x-from" text="2024-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002101">
+              <label xml:lang="de" text="LG Data Science"/>
+              <label xml:lang="x-from" text="2021-11-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000145">
+              <label xml:lang="de" text="LG Datenbanken und Informationssysteme"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000138">
+              <label xml:lang="de" text="LG Kommunikationsnetze"/>
+              <label xml:lang="x-from" text="2014-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000146">
+              <label xml:lang="de" text="LG Kooperative Systeme"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002076">
+              <label xml:lang="de" text="LG Künstliche Intelligenz"/>
+              <label xml:lang="x-from" text="2021-03-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002684">
+              <label xml:lang="de" text="LG Learning Analytics in Higher Education (CATALPA)"/>
+              <label xml:lang="x-from" text="2024-03-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000147">
+              <label xml:lang="de" text="LG Mensch-Computer-Interaktion"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000150">
+              <label xml:lang="de" text="LG Multimedia- und Internetanwendungen"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000144">
+              <label xml:lang="de" text="LG Parallelität und VLSI"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000149">
+              <label xml:lang="de" text="LG Programmiersysteme"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000139">
+              <label xml:lang="de" text="LG Softwaretechnik und Theorie der Programmierung"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001450">
+              <label xml:lang="de" text="LG Technische Informatik"/>
+              <label xml:lang="x-from" text="2017-08-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000143">
+              <label xml:lang="de" text="LG Theoretische Informatik"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000151">
+              <label xml:lang="de" text="LG Unternehmensweite Softwaresysteme"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000061">
+            <label xml:lang="de" text="Fak. MI - Lehreinheit Mathematik"/>
+            <label xml:lang="x-from" text="2011-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000476">
+              <label xml:lang="de" text="Fak. MI - Campussta. m. Mentoren LE Mat."/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001801">
+              <label xml:lang="de" text="LG Algebra"/>
+              <label xml:lang="x-from" text="2019-10-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000118">
+              <label xml:lang="de" text="LG Analysis"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002100">
+              <label xml:lang="de" text="LG Angewandte Stochastik"/>
+              <label xml:lang="x-from" text="2021-10-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000122">
+              <label xml:lang="de" text="LG Diskrete Mathematik und Optimierung"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000120">
+              <label xml:lang="de" text="LG Numerische Mathematik, LG Num.Mathe"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000126">
+              <label xml:lang="de" text="LG Stochastik und Mathematische Physik"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+        </category>
+        <category ID="10000050">
+          <label xml:lang="de" text="Fak. MI - Zentralbereiche (ZFE)"/>
+          <label xml:lang="x-from" text="2011-01-01" />
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10002502">
+          <label xml:lang="de" text="Fakultät MI - Institute"/>
+          <label xml:lang="x-from" text="2022-07-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10002503">
+            <label xml:lang="de" text="Institut - Center elektronische Weiterbildung (CEW)"/>
+            <label xml:lang="x-from" text="2022-07-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+        </category>
+      </category>
+      <category ID="10001552">
+        <label xml:lang="de" text="Fakultät für Psychologie"/>
+        <label xml:lang="x-from" text="2018-10-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+        <category ID="10001556">
+          <label xml:lang="de" text="Fak. PSY - Emeriti/Ruhestandsprof (ZFE)"/>
+          <label xml:lang="x-from" text="2018-10-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10001557">
+          <label xml:lang="de" text="Fak. PSY - Lehrgebiete"/>
+          <label xml:lang="x-from" text="2018-10-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10002505">
+            <label xml:lang="de" text="Lehreinheit Psychologie"/>
+            <label xml:lang="x-from" text="2022-09-27"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000331">
+              <label xml:lang="de" text="Fak. PSY - Campussta. m. Mentoren (ZFE)"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002625">
+              <label xml:lang="de" text="FI - ABD Wirtschaftspsychologie"/>
+              <label xml:lang="x-from" text="2023-06-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000409">
+              <label xml:lang="de" text="LG Allgemeine Psychologie: Lernen, Motivation, Emotion"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001040">
+              <label xml:lang="de"
+                text="LG Allgemeine Psychologie: Urteilen, Entscheiden, Handeln"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000407">
+              <label xml:lang="de" text="LG Arbeits-u.Organisationspsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002700">
+              <label xml:lang="de" text="LG Behavioral Economics und Interkulturelle Psychologie"/>
+              <label xml:lang="x-from" text="2024-04-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000755">
+              <label xml:lang="de" text="LG Bildungspsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000754">
+              <label xml:lang="de" text="LG Community Psychologie / Gemeindepsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000756">
+              <label xml:lang="de" text="LG Gesundheitspsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002075">
+              <label xml:lang="de" text="LG Kognition und Lernen Erwachsener (DIE)"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002800">
+              <label xml:lang="de" text="LG Learning Sciences in Higher Education (CATALPA)"/>
+              <label xml:lang="x-from" text="2024-12-18"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001725">
+              <label xml:lang="de" text="LG Medienpsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001039">
+              <label xml:lang="de" text="LG Persönlichkeits-, Rechtspsychologie und Diagnostik"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000408">
+              <label xml:lang="de" text="LG Psychologie des Erwachsenenalters"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000411">
+              <label xml:lang="de" text="LG Psychologische Methodenlehre und Evaluation"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000410">
+              <label xml:lang="de" text="LG Sozialpsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002016">
+              <label xml:lang="de" text="TT JP Klinische und Gesundheitspsychologie"/>
+              <label xml:lang="x-from" text="2022-09-27"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+        </category>
+        <category ID="10001553">
+          <label xml:lang="de" text="Fak. PSY - Zentralbereiche (ZFE)"/>
+          <label xml:lang="x-from" text="2018-10-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+      </category>
+      <category ID="10000014">
+        <label xml:lang="de" text="Fakultät für Wirtschaftswissenschaft"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+        <category ID="10000112">
+          <label xml:lang="de" text="Fak. WiWi - Emeriti/Ruhestandsprof (ZFE)"/>
+          <label xml:lang="x-from" text="2011-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10000426">
+          <label xml:lang="de" text="Fak. WiWi - Lehrgebiete"/>
+          <label xml:lang="x-from" text="2010-11-20"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000427">
+            <label xml:lang="de" text="Fak. WiWi - Campussta. m. Mentoren (ZFE)"/>
+            <label xml:lang="x-from" text="2011-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10000030">
+            <label xml:lang="de" text="Fak. WiWi - Lehreinheit BWL"/>
+            <label xml:lang="x-from" text="2010-11-20"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000101">
+              <label xml:lang="de" text="LG Angewandte Statistik"/>
+              <label xml:lang="x-from" text="2014-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001001">
+              <label xml:lang="de" text="LG Betriebliche Anwendungssysteme"/>
+              <label xml:lang="x-from" text="2013-11-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000098">
+              <label xml:lang="de" text="LG BWL, insbesondere Bank- und Finanzwirtschaft"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000103">
+              <label xml:lang="de" text="LG BWL, insbesondere Betriebswirtschaftliche Steuerlehre"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000106">
+              <label xml:lang="de"
+                text="LG BWL, insbesondere Entwicklung von Informationssystemen"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002010">
+              <label xml:lang="de"
+                text="LG BWL, insbesondere Gestaltung sozio-technischer Informationssysteme"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000111">
+              <label xml:lang="de" text="LG BWL, insbesondere Informationsmanagement"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000110">
+              <label xml:lang="de"
+                text="LG BWL, insbesondere Investitionstheorie und Unternehmensbewertung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000102">
+              <label xml:lang="de" text="LG BWL, insbesondere Marketing"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000105">
+              <label xml:lang="de" text="LG BWL, insbesondere Organisation und Planung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000108">
+              <label xml:lang="de" text="LG BWL, insbesondere Personalführung und Organisation"/>
+              <label xml:lang="x-from" text="2015-04-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000099">
+              <label xml:lang="de" text="LG BWL, insbesondere Produktion und Logistik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000100">
+              <label xml:lang="de"
+                text="LG BWL, insbesondere Quantitative Methoden und Wirtschaftsmathematik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000104">
+              <label xml:lang="de"
+                text="LG BWL, insbesondere Unternehmensrechnung und Controlling"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000753">
+              <label xml:lang="de" text="LG BWL, insbesondere Wirtschaftsprüfung"/>
+              <label xml:lang="x-from" text="2011-09-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000109">
+              <label xml:lang="de"
+                text="LG Douglas-Stiftungslehrstuhl für Dienstleistungsmanagement"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002011">
+              <label xml:lang="de" text="TT JP BWL, insbesondere Energiewirtschaft"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+          <category ID="10000031">
+            <label xml:lang="de" text="Fak. WiWi - Lehreinheit VWL"/>
+            <label xml:lang="x-from" text="2010-11-20"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10000173">
+              <label xml:lang="de" text="LG VWL, insb. Makroökonomie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000174">
+              <label xml:lang="de" text="LG VWL, insbesondere Finanzwissenschaft"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001125">
+              <label xml:lang="de" text="LG VWL, insbesondere Internationale Ökonomie"/>
+              <label xml:lang="x-from" text="2015-04-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000172">
+              <label xml:lang="de" text="LG VWL, insbesondere Mikroökonomik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000175">
+              <label xml:lang="de" text="LG Wirtschaftspolitik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+        </category>
+        <category ID="10000026">
+          <label xml:lang="de" text="Fak. WiWi - Zentralbereiche (ZFE)"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+      </category>
+      <category ID="10002430">
+        <label xml:lang="de" text="Forschungsinstitut Arbeit, Bildung, Digitalisierung"/>
+        <label xml:lang="x-from" text="2022-04-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000015">
+        <label xml:lang="de" text="Rechtswissenschaftliche Fakultät"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+        <category ID="10000113">
+          <label xml:lang="de" text="ReWi Fak. - Emeriti/Ruhestandsprof (ZFE)"/>
+          <label xml:lang="x-from" text="2011-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+        <category ID="10000038">
+          <label xml:lang="de" text="ReWi Fak. - In-Institute"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000189">
+            <label xml:lang="de" text="Institut für Japanisches Recht"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10000188">
+            <label xml:lang="de"
+              text="Dimitris Tsatsos Institut für Europäische Verfassungswissenschaften"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10002550">
+            <label xml:lang="de" text="Institut für juristische Didaktik &quot;In Iure&quot;"/>
+            <label xml:lang="x-from" text="2023-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+          <category ID="10001826">
+            <label xml:lang="de" text="Institut für juristische Zeitgeschichte"/>
+            <label xml:lang="x-from" text="2019-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+          </category>
+        </category>
+        <category ID="10000036">
+          <label xml:lang="de" text="ReWi Fak. - Lehrgebiete"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+          <category ID="10000037">
+            <label xml:lang="de" text="ReWi Fak. - Lehreinheit ReWi"/>
+            <label xml:lang="x-from" text="2010-01-01"/>
+            <label xml:lang="x-to" text="2100-12-31"/>
+            <category ID="10001461">
+              <label xml:lang="de" text="JP Ostasiatisches Recht, insb. Japanisches Recht"/>
+              <label xml:lang="x-from" text="2017-07-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000194">
+              <label xml:lang="de"
+                text="LG Bürgerliches Recht, Arbeitsrecht und Rechtsvergleichung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000550">
+              <label xml:lang="de"
+                text="LG Bürgerliches Recht, Privatrechtsgeschichte sowie Handels- und Gesellschaftsrecht"/>
+              <label xml:lang="x-from" text="2011-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000116">
+              <label xml:lang="de"
+                text="LG Bürgerliches Recht, Unternehmensrecht und Rechtsvergleichung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000117">
+              <label xml:lang="de"
+                text="LG Bürgerliches Recht, Wirtschaftsrecht, Gewerblicher Rechtsschutz, Urheberrecht und Zivilprozessrecht"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000190">
+              <label xml:lang="de"
+                text="LG Bürgerliches Recht, Zivilprozessrecht, Internationales Privatrecht und Rechtsvergleichung"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000193">
+              <label xml:lang="de"
+                text="LG Deutsches und Europäisches Verfassungs- und Verwaltungsrecht sowie Völkerrecht"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000752">
+              <label xml:lang="de"
+                text="LG Staats- und Verwaltungsrecht, Europarecht, Religionsverfassungsrecht  und Rechtsvergleichung"/>
+              <label xml:lang="x-from" text="2011-10-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10001276">
+              <label xml:lang="de"
+                text="LG Strafrecht, Strafprozessrecht, Wirtschaftsstrafrecht und Internationales Strafrecht"/>
+              <label xml:lang="x-from" text="2015-10-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000191">
+              <label xml:lang="de"
+                text="LG Strafrecht, Strafrechtsgeschichte und Rechtsphilosophie"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000192">
+              <label xml:lang="de"
+                text="LG Öffentliches Recht, insbesondere Verwaltungsrecht und Rechtsdidaktik"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002012">
+              <label xml:lang="de"
+                text="LS für Bürgerliches Recht, Deutsches und Europäisches Wirtschaftsrecht, Energierecht und Rechtsvergleichung"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000441">
+              <label xml:lang="de" text="Rechtswissenschaftliche Fakultät"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10002013">
+              <label xml:lang="de"
+                text="TT JP Öffentliches Recht mit Schwerpunkt Datenschutzrecht und Recht der Digitalisierung"/>
+              <label xml:lang="x-from" text="2021-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+            <category ID="10000195">
+              <label xml:lang="de"
+                text="Wilhelm Peter Radt-Stiftungslehrstuhl für Bürgerliches Recht, Gewerblichen Rechtsschutz, Internationales Privat- und Zivilprozessrecht"/>
+              <label xml:lang="x-from" text="2010-01-01"/>
+              <label xml:lang="x-to" text="2100-12-31"/>
+            </category>
+          </category>
+        </category>
+        <category ID="10000033">
+          <label xml:lang="de" text="ReWi Fak. - Zentralbereiche (ZFE)"/>
+          <label xml:lang="x-from" text="2010-01-01"/>
+          <label xml:lang="x-to" text="2100-12-31"/>
+        </category>
+      </category>
+      <category ID="10002675">
+        <label xml:lang="de" text="Universitätsbibliothek"/>
+        <label xml:lang="x-from" text="2024-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10000018">
+        <label xml:lang="de" text="Universitätsbibliothek"/>
+        <label xml:lang="x-from" text="2010-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="1000001301">
+        <label xml:lang="de" text="Weitere Bereiche Rektor*in"/>
+        <label xml:lang="x-from" text="2011-01-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+      <category ID="10002175">
+        <label xml:lang="de" text="Zentrum für Digitalisierung und IT"/>
+        <label xml:lang="x-from" text="2021-05-01"/>
+        <label xml:lang="x-to" text="2100-12-31"/>
+      </category>
+    </category>
+    <category ID="10001902">
+      <label xml:lang="de" text="Rektorat" />
+      <label xml:lang="x-from" text="2020-04-01" />
+      <label xml:lang="x-to" text="2100-12-31"/>
+    </category>
+  </categories>
+</mycoreclass>
